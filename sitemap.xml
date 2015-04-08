@@ -1,0 +1,32 @@
+<!-- no idea if this is actually a solid template or not, no idea how to verify that, but here's something... -->
+
+
+<?php header("Content-Type: application/xml; charset=utf-8");
+echo '<?xml version="1.0" encoding="UTF-8"?>';
+
+//START generate a week ago date
+$a = strtotime("-1 week");
+$lastMod = date("Y-m-d", $a);
+//END generate a week ago date
+
+$base = "http://roofingbymidsouth.com";
+
+$staticPages = "/,
+				/commercial/,
+				/specialty/,
+				/insurance/public-adjusting
+			   ";
+$static = explode(",", $staticPages);
+?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+<?php //-------------- start STATIC PAGES -----------------// ?>
+<?php foreach ($static as $value) { ?>
+<url>
+<loc><?php echo $base . trim($value); ?></loc>
+<lastmod><?php echo date("Y-m-d");  ?></lastmod>
+<changefreq>always</changefreq>
+<priority>1.0</priority>
+</url>
+<?php } ?>
+<?php //-------------- end STATIC PAGES -----------------// ?>
+</urlset>

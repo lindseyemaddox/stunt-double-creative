@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import 'molecules/common_resetCss.less';
+@import 'molecules/less-functions.less';
+
+/*==================================================*/
+/*=============== MOLECULAR STYLES ================*/
+/*===============================================*/
+/* (Common Elements that make up bigger groups elements.) */
+
+@import 'molecules/fonts.less';
+@import 'molecules/molecules.less';
+
+/*=================================================*/
+/*================ ORGANIC STYLES ================*/
+/*===============================================*/
+/* (Groups of elements that are used throughout the site.) */
+
+@import 'organisms/header.less';
+@import 'organisms/footer.less';
+
+/*================================================*/
+/*================  PAGE STYLES  ================*/
+/*==============================================*/
+/* (Styles for pages with elements occuring in ways specific to the page.) */
+
+@import 'pages/home.less';
+
+/*======================================================*/
+/*================  RESPONSIVE STYLES  ================*/
+/*====================================================*/
+/*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
+
+@import 'responsive.less';
