@@ -358,17 +358,397 @@ svg:not(:root) {
 /*=============== MOLECULAR STYLES ================*/
 /*===============================================*/
 /* (Common Elements that make up bigger groups elements.) */
+.proxima-nova-light {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+.proxima-nova-bold {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+.proxima-nova-black {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+.refrigerator {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
 html {
   font-size: 16px;
 }
+header,
+section {
+  font-size: 1rem;
+}
+footer {
+  font-size: 0.875rem;
+}
 body {
   -webkit-font-smoothing: antialiased;
+}
+.inner {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+h1 {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6.52em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .1;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.30375em;
+  color: #fff;
+  text-align: center;
+  letter-spacing: .7;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 2.5em;
+  color: #993c36;
+  text-align: center;
+  letter-spacing: .1;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  color: #000;
+  text-align: center;
+  letter-spacing: .1;
+  text-transform: uppercase;
 }
 /*=================================================*/
 /*================ ORGANIC STYLES ================*/
 /*===============================================*/
 /* (Groups of elements that are used throughout the site.) */
+/* Start: Recommended Isotope styles */
+/**** Isotope Filtering ****/
+.isotope-item {
+  z-index: 2;
+}
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* FlexSlider Necessary Styles
+*********************************/
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+/* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+.flex-pauseplay span {
+  text-transform: capitalize;
+}
+/* Clearfix for the .slides element */
+.slides:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .slides {
+  display: block;
+}
+* html .slides {
+  height: 1%;
+}
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .slides > li:first-child {
+  display: block;
+}
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {
+  margin: 0 0 60px;
+  zoom: 1;
+}
+.flex-viewport {
+  max-height: 2000px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.loading .flex-viewport {
+  max-height: 300px;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+/* Direction Nav */
+.flex-direction-nav {
+  *height: 0;
+}
+.flex-direction-nav a {
+  width: 30px;
+  height: 30px;
+  margin: -20px 0 0;
+  display: block;
+  background: url(/_assets/img/bg_direction_nav.png) no-repeat 0 0;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  text-indent: -9999px;
+  opacity: 0;
+  -webkit-transition: all .3s ease;
+}
+.flex-direction-nav .flex-next {
+  background-position: 100% 0;
+  right: -36px;
+}
+.flex-direction-nav .flex-prev {
+  left: -36px;
+}
+.flexslider:hover .flex-next {
+  opacity: 0.8;
+  right: 5px;
+}
+.flexslider:hover .flex-prev {
+  opacity: 0.8;
+  left: 5px;
+}
+.flexslider:hover .flex-next:hover,
+.flexslider:hover .flex-prev:hover {
+  opacity: 1;
+}
+.flex-direction-nav .flex-disabled {
+  opacity: .3!important;
+  filter: alpha(opacity=30);
+  cursor: default;
+}
+/* Control Nav */
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  text-align: center;
+}
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #666;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+.flex-control-paging li a:hover {
+  background: #333;
+  background: rgba(0, 0, 0, 0.7);
+}
+.flex-control-paging li a.flex-active {
+  background: #000;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: default;
+}
+.flex-control-thumbs {
+  margin: 5px 0 0;
+  position: static;
+  overflow: hidden;
+}
+.flex-control-thumbs li {
+  width: 25%;
+  float: left;
+  margin: 0;
+}
+.flex-control-thumbs img {
+  width: 100%;
+  display: block;
+  opacity: .7;
+  cursor: pointer;
+}
+.flex-control-thumbs img:hover {
+  opacity: 1;
+}
+.flex-control-thumbs .flex-active {
+  opacity: 1;
+  cursor: default;
+}
+@media screen and (max-width: 860px) {
+  .flex-direction-nav .flex-prev {
+    opacity: 1;
+    left: 0;
+  }
+  .flex-direction-nav .flex-next {
+    opacity: 1;
+    right: 0;
+  }
+}
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
+header {
+  position: relative;
+}
+header nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+header nav.fixed {
+  background-color: #fff;
+  -webkit-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 0;
+}
+header nav.fixed div.img {
+  background: url(/_assets/img/logo-snipe.png) no-repeat center center transparent;
+}
+header nav.fixed div.img img {
+  visibility: hidden;
+}
+header nav div.img {
+  position: absolute;
+  left: 0;
+}
+header nav ul {
+  margin: 37px 5% 0 0;
+  width: 95%;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+header nav ul li {
+  display: inline-block;
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0 1%;
+  letter-spacing: 4px;
+}
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header nav ul li#line {
+  position: absolute;
+  height: 3px;
+  bottom: -5px;
+  margin: 0 0 0 .9%;
+  background: #993c36 none repeat scroll 0 0;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+/******** START ABOUT SECTION STYLES *********/
+/******** START PORTFOLIO SECTION STYLES *********/
+/******** START TEAM SECTION STYLES *********/
+/******** START SERVICES SECTION STYLES *********/
+/******** START CLIENTS SECTION STYLES *********/
+/******** START CONTACT SECTION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 /*================================================*/
 /*================  PAGE STYLES  ================*/
@@ -380,6 +760,6 @@ body {
 /*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
 @media screen and (max-width: 1200px) {
   html {
-    font-size: 14px;
+    font-size: 15.5px;
   }
 }

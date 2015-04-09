@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title></title>
+	<title>Stunt Double Creative</title>
 	<meta name="description" content="">
 	
 	<!--[if lt IE 8]>
@@ -20,6 +20,10 @@
 	<link rel="shortcut icon" href="/_assets/img/favicon.ico">
 	<link rel="apple-touch-icon" href="/_assets/img/apple-touch-57.png">
 
+	<!--fonts-->
+	<script src="//use.typekit.net/xsv7esa.js"></script>
+	<script>try{Typekit.load();}catch(e){}</script>
+
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="/_assets/css/styles.css" media="screen">
 
@@ -27,4 +31,6 @@
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script src="/_assets/js/main.js"></script>
+	<script src="/_assets/js/flexslider.jquery.js"></script>
+	<script src="/_assets/js/smoothscroll.js"></script>
 
