@@ -82,14 +82,85 @@
 
 		<div id="container" class="clearfix">
 
-			<article class="portfolio-item branding">
-				<div class="fish silver">
-				  <h5>Project Title</h5>
-				  <h6>Project info can run onto multiple lines if needed.</h6>
-				  <p><a href="/lightboxes/sportfishing/silver-salmon/" class="fancybox fancybox.iframe">details</a><br />
-				  <a href="/_assets/img/galleries/silver-salmon-red.jpg" class="fancybox" rel="silver-salmon">view gallery</a></p>
-				</div><!--fish-->
-			</article>
+			<a class="portfolio-item fancybox branding" href="#branding-item" title="Branding Item" data-fancybox-group="branding">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Project Title</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+
+			</a><!--portfolio-item-->
+		
+			<div id="branding-item" style="width:400px;display: none;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			</div>
+
+			<a class="portfolio-item fancybox branding" href="#branding-item2" title="Branding Item 2" data-fancybox-group="branding">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Project Title</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+
+			</a><!--portfolio-item-->
+		
+			<div id="branding-item2" style="width:400px;display: none;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			</div>
+
+			<a class="portfolio-item fancybox print" href="#print-item" title="Print Item" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Project Title</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+
+			</a><!--portfolio-item-->
+		
+			<div id="print-item" style="width:400px;display: none;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			</div>
+
+			<a class="portfolio-item fancybox web-design" href="#web-design-item" title="Web Design Item" data-fancybox-group="web-design">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Project Title</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+
+			</a><!--portfolio-item-->
+		
+			<div id="web-design-item" style="width:400px;display: none;">
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			</div>
 
 		</div><!--container-->
 
@@ -99,6 +170,13 @@
 
 
 <script>
+
+	$(document).ready(function() {
+
+		$('.fancybox').fancybox();
+
+	});
+
 
     $(function(){
 
@@ -139,6 +217,7 @@
         return false;
       });
   	});
+
 
 </script>
 

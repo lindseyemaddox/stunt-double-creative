@@ -34,4 +34,5 @@
 	<script src="/_assets/js/flexslider.jquery.js"></script>
 	<script src="/_assets/js/smoothscroll.js"></script>
 	<script src="/_assets/js/isotope.jquery.min.js"></script>
+	<script src="/_assets/js/fancybox.jquery.js"></script>
 
