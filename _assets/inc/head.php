@@ -33,4 +33,5 @@
 	<script src="/_assets/js/main.js"></script>
 	<script src="/_assets/js/flexslider.jquery.js"></script>
 	<script src="/_assets/js/smoothscroll.js"></script>
+	<script src="/_assets/js/isotope.jquery.min.js"></script>
 
