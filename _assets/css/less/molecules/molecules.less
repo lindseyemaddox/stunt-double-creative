@@ -74,6 +74,17 @@ h4 {
 	}
 }
 
+h5 {
+	.refrigerator;
+	font-size: 1.875em;
+	color: @red;
+	text-align: center;
+	letter-spacing: .1px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+
 p.headline {
 	.refrigerator;
 	font-size: 6.52em;
@@ -83,15 +94,21 @@ p.headline {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 }
-p.tag {
+p {
 	.proxima-nova-light;
-	font-size: 1.30375em;
-	line-height: 1.4500000000000002em;
-	color: #fff;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #000;
 	text-align: center;
-	letter-spacing: 8px;
-	text-transform: uppercase;
-	padding: 0 8%;
+	letter-spacing: .1px;
+	&.tag {
+		font-size: 1.30375em;
+		line-height: 1.4500000000000002em;
+		color: #fff;
+		letter-spacing: 8px;
+		text-transform: uppercase;
+		padding: 0 8%;
+	}
 }
 
 .btnBox {

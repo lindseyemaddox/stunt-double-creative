@@ -378,6 +378,53 @@ svg:not(:root) {
   font-style: normal;
   font-weight: 900;
 }
+@font-face {
+  font-family: 'icomoon';
+  src: url('/_assets/fonts/icomoon.eot?4fjl1j');
+  src: url('/_assets/fonts/icomoon.eot?#iefix4fjl1j') format('embedded-opentype'), url('/_assets/fonts/icomoon.woff?4fjl1j') format('woff'), url('/_assets/fonts/icomoon.ttf?4fjl1j') format('truetype'), url('/_assets/fonts/icomoon.svg?4fjl1j#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-logo:before {
+  content: "\e600";
+}
+.icon-etsy:before {
+  content: "\e601";
+}
+.icon-twitter:before {
+  content: "\e602";
+}
+.icon-instagram:before {
+  content: "\e603";
+}
+.icon-facebook:before {
+  content: "\e604";
+}
+.icon-paintbrush:before {
+  content: "\e605";
+}
+.icon-computer:before {
+  content: "\e606";
+}
+.icon-identity:before {
+  content: "\e607";
+}
+.icon-print:before {
+  content: "\e608";
+}
 html {
   font-size: 16px;
 }
@@ -456,6 +503,17 @@ h4:after {
   display: block;
   margin: 38px auto 54px;
 }
+h5 {
+  font-family: "refrigerator-deluxe-n9", "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.875em;
+  color: #993c36;
+  text-align: center;
+  letter-spacing: .1px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
 p.headline {
   font-family: "refrigerator-deluxe-n9", "refrigerator-deluxe", sans-serif;
   font-style: normal;
@@ -467,14 +525,20 @@ p.headline {
   letter-spacing: 5px;
   text-transform: uppercase;
 }
-p.tag {
+p {
   font-family: 'proxima-nova', sans-serif;
   font-style: normal;
   font-weight: 300;
+  font-size: 1em;
+  line-height: 1.25em;
+  color: #000;
+  text-align: center;
+  letter-spacing: .1px;
+}
+p.tag {
   font-size: 1.30375em;
   line-height: 1.4500000000000002em;
   color: #fff;
-  text-align: center;
   letter-spacing: 8px;
   text-transform: uppercase;
   padding: 0 8%;
@@ -1098,8 +1162,9 @@ section#portfolio ul#filters li {
 }
 section#portfolio a.portfolio-item {
   width: 24%;
+  height: 291px;
   display: inline-block;
-  margin: 0 .1%;
+  margin: 0 .1% 1px;
   position: relative;
   overflow: hidden;
   -webkit-transition: all 400ms ease;
@@ -1174,7 +1239,32 @@ section#portfolio a.portfolio-item:hover img {
   margin: -50% 0 0 -50%;
 }
 /******** START TEAM SECTION STYLES *********/
+section#team div > div {
+  width: 49%;
+  padding: 0 9%;
+}
+section#team div > div img {
+  width: 100%;
+}
+section#team div > div h4 {
+  padding-top: 5px;
+}
+section#team div > div h4:after {
+  width: 70px;
+  margin: 18px auto;
+}
+section#team div.right {
+  margin-left: 1%;
+}
+section#team p {
+  margin: 0 -16%;
+}
 /******** START SERVICES SECTION STYLES *********/
+section#services div#service article {
+  display: inline-block;
+  width: 24%;
+  margin: 0 1px;
+}
 /******** START CLIENTS SECTION STYLES *********/
 /******** START CONTACT SECTION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
