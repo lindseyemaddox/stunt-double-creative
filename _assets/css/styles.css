@@ -1214,6 +1214,7 @@ section#portfolio a.portfolio-item p.project-title {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color: #fff;
 }
 section#portfolio a.portfolio-item p.project-title:after {
   content: "";
@@ -1226,6 +1227,7 @@ section#portfolio a.portfolio-item p.project-details {
   font-family: 'proxima-nova', sans-serif;
   font-style: normal;
   font-weight: 300;
+  color: #fff;
   padding: 0 20%;
 }
 section#portfolio a.portfolio-item:hover div.overlay {
@@ -1260,10 +1262,96 @@ section#team p {
   margin: 0 -16%;
 }
 /******** START SERVICES SECTION STYLES *********/
-section#services div#service article {
+section#services article {
   display: inline-block;
-  width: 24%;
+  width: 24.5%;
   margin: 0 1px;
+  background-color: #b7b7b7;
+  position: relative;
+  vertical-align: top;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#services article span {
+  color: #fff;
+  font-size: 10em;
+  text-align: center;
+  display: block;
+  z-index: 0;
+  margin: 70px 0;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#services article div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  background-color: #000;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#services article div.text {
+  position: absolute;
+  opacity: 0;
+  width: 100%;
+  font-size: 1em;
+  text-align: center;
+  color: #fff;
+  padding: 35% 0 0;
+  z-index: 1;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#services article p.project-title {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+}
+section#services article p.project-title:after {
+  content: "";
+  border-bottom: 4px solid #993c36;
+  width: 67px;
+  display: block;
+  margin: 16px auto;
+}
+section#services article p.project-details {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  color: #fff;
+  padding: 0 20%;
+}
+section#services article:hover div.overlay {
+  opacity: 1;
+}
+section#services article:hover div.text {
+  opacity: 1;
+}
+section#services article:hover span {
+  color: #464646;
+  position: relative;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 /******** START CLIENTS SECTION STYLES *********/
 /******** START CONTACT SECTION STYLES *********/

@@ -291,12 +291,70 @@
 		<h3>Services.</h3>
 
 		<h4>This is what we’re good at.</h4>
+			
+		<article id="print">
+			
+			<div class="overlay"></div><!--overlay-->
 
-		<div id="service">
+			<div class="text">
+
+				<p class="project-title">Print Title</p>
+
+				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+			</div><!--text-->
+
+			<span class="icon-print"></span>
+
+		</article><!--print-->
+		
+		<article id="identity">
 			
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="text">
+
+				<p class="project-title">Identity Title</p>
+
+				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+			</div><!--text-->
+
+			<span class="icon-identity"></span>
+
+		</article><!--identity-->
+		
+		<article id="computer">
 			
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="text">
+
+				<p class="project-title">Computer Title</p>
+
+				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+			</div><!--text-->
+
+			<span class="icon-computer"></span>
+
+		</article><!--computer-->
+		
+		<article id="illustration">
 			
-		</div><!--service-->
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="text">
+
+				<p class="project-title">Illustration</p>
+
+				<p class="project-details">Custom infographics, icons, and more</p>
+
+			</div><!--text-->
+
+			<span class="icon-paintbrush"></span>
+
+		</article><!--illustration-->
 
 	</div><!--inner-->
 
