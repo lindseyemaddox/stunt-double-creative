@@ -3,7 +3,59 @@
 
 
 section#clients {
-	
+	article.client {
+		width: 19%;
+		height: 230px;
+		display: inline-block;
+		margin: 0 .1% 1px;
+		position: relative;
+		overflow: hidden;
+		.transition;
+		img.background {
+			width: 100%;
+			.transition(all, 200ms, ease);
+		}
+		div.overlay {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 100%;
+			opacity: 0;
+			background-color: #000;
+			.transition;
+		}
+		div.logo {
+			position: absolute;
+			top: -100%;
+			width: 100%;
+			font-size: 1em;
+			text-align: center;
+			.transition(all, 1000ms, ease);
+			img {
+				width: 30%;
+				margin: 0 35%;
+				&.lindsey-maddox {
+					width: 20%;
+					margin: 0 45%;
+				}
+			}
+		}
+		&:hover {
+			div.overlay {
+				opacity: .4;
+			}
+			div.logo {
+				top: 35%;
+				img.lindsey-maddox {
+					margin-top: -20%;
+				}
+			}
+			img.background {
+				width: 120%;
+				margin: -10% 0 0 -10%;
+			}
+		}
+	}
 }
 
 /******** END CLIENTS SECTION STYLES *********/

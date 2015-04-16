@@ -1354,6 +1354,73 @@ section#services article:hover span {
   transition: all 400ms ease;
 }
 /******** START CLIENTS SECTION STYLES *********/
+section#clients article.client {
+  width: 19%;
+  height: 230px;
+  display: inline-block;
+  margin: 0 .1% 1px;
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#clients article.client img.background {
+  width: 100%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+section#clients article.client div.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  background-color: #000;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#clients article.client div.logo {
+  position: absolute;
+  top: -100%;
+  width: 100%;
+  font-size: 1em;
+  text-align: center;
+  -webkit-transition: all 1000ms ease;
+  -moz-transition: all 1000ms ease;
+  -o-transition: all 1000ms ease;
+  -ms-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+section#clients article.client div.logo img {
+  width: 30%;
+  margin: 0 35%;
+}
+section#clients article.client div.logo img.lindsey-maddox {
+  width: 20%;
+  margin: 0 45%;
+}
+section#clients article.client:hover div.overlay {
+  opacity: .4;
+}
+section#clients article.client:hover div.logo {
+  top: 35%;
+}
+section#clients article.client:hover div.logo img.lindsey-maddox {
+  margin-top: -20%;
+}
+section#clients article.client:hover img.background {
+  width: 120%;
+  margin: -10% 0 0 -10%;
+}
 /******** START CONTACT SECTION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 /*================================================*/
