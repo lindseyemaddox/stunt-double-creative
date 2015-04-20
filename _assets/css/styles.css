@@ -1380,7 +1380,7 @@ section#clients article.client div.overlay {
   top: 0;
   bottom: 0;
   width: 100%;
-  opacity: 0;
+  opacity: .7;
   background-color: #000;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -1409,7 +1409,7 @@ section#clients article.client div.logo img.lindsey-maddox {
   margin: 0 45%;
 }
 section#clients article.client:hover div.overlay {
-  opacity: .4;
+  opacity: .8;
 }
 section#clients article.client:hover div.logo {
   top: 35%;

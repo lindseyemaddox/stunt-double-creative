@@ -382,6 +382,62 @@
 
 		</article><!--client-->
 
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+
+		</article><!--client-->
+
 	</div><!--inner-->
 
 </section><!--clients-->
