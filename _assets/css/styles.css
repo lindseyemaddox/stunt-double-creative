@@ -437,6 +437,7 @@ footer {
 }
 body {
   -webkit-font-smoothing: antialiased;
+  position: relative;
 }
 .inner {
   max-width: 1210px;
@@ -1112,19 +1113,36 @@ header nav {
 }
 header nav.fixed {
   background-color: #fff;
-  -webkit-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
-  box-shadow: '' 0 1px 2px 0 rgba(0, 0, 0, 0.25);
   position: fixed;
   top: 0;
+  height: 100px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
+  /* IE6-9 */
 }
-header nav.fixed div.img {
-  background: url(/_assets/img/logo-snipe.png) no-repeat center center transparent;
+header nav.fixed div#logo {
+  background: url(/_assets/img/logo-snipe.png) no-repeat center 10px transparent;
 }
-header nav.fixed div.img img {
-  visibility: hidden;
+header nav.fixed div#logo img {
+  opacity: 0;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
-header nav div.img {
+header nav div#logo {
   position: absolute;
   left: 0;
 }

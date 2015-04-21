@@ -1,11 +1,11 @@
 </head>
-<body>
+<body data-spy="scroll" data-target="nav">
 	
 	<header>
 
 		<nav>
 
-			<div class="img">
+			<div id="logo">
 	
 				<img src="/_assets/img/logo-horizontal.png" alt="Stunt Double Creative logo" title="Stunt Double Creative logo">
 
