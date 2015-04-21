@@ -26,7 +26,7 @@
 
 .fancybox-skin {
 	position: relative;
-	background: #f9f9f9;
+	background: #fff;
 	color: #444;
 	text-shadow: none;
 	-webkit-border-radius: 4px;
@@ -99,8 +99,8 @@
 
 .fancybox-close {
 	position: absolute;
-	top: -18px;
-	right: -18px;
+	top: 183px;
+	right: 61px;
 	width: 36px;
 	height: 36px;
 	cursor: pointer;
@@ -110,7 +110,7 @@
 .fancybox-nav {
 	position: absolute;
 	top: 0;
-	width: 40%;
+	width: 10%;
 	height: 100%;
 	cursor: pointer;
 	text-decoration: none;
@@ -120,16 +120,16 @@
 }
 
 .fancybox-prev {
-	left: 0;
+	left: 30px;
 }
 
 .fancybox-next {
-	right: 0;
+	right: 30px;
 }
 
 .fancybox-nav span {
 	position: absolute;
-	top: 50%;
+	top: 70%;
 	width: 36px;
 	height: 34px;
 	margin-top: -18px;
@@ -270,5 +270,27 @@
 	#fancybox-loading div {
 		background-image: url('/_assets/img/fancybox_loading@2x.gif');
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
+	}
+}
+
+
+
+
+#branding-item {
+	width: 900px;
+	h3 {
+		margin-top: 273px;
+		font-size: 3.3125em;
+	}
+	h4 {
+		font-size: 2em;
+		padding-top: 20px;
+		&:after {
+			width: 112px;
+			margin-top: 35px;
+		}
+	}
+	img {
+		width: 100%;
 	}
 }

@@ -446,6 +446,9 @@ div.left,
 div.right {
   display: inline-block;
 }
+.clear {
+  clear: both;
+}
 h1 {
   font-family: 'proxima-nova', sans-serif;
   font-style: normal;
@@ -656,7 +659,7 @@ p.tag {
 }
 .fancybox-skin {
   position: relative;
-  background: #f9f9f9;
+  background: #fff;
   color: #444;
   text-shadow: none;
   -webkit-border-radius: 4px;
@@ -722,8 +725,8 @@ p.tag {
 }
 .fancybox-close {
   position: absolute;
-  top: -18px;
-  right: -18px;
+  top: 183px;
+  right: 61px;
   width: 36px;
   height: 36px;
   cursor: pointer;
@@ -732,7 +735,7 @@ p.tag {
 .fancybox-nav {
   position: absolute;
   top: 0;
-  width: 40%;
+  width: 10%;
   height: 100%;
   cursor: pointer;
   text-decoration: none;
@@ -742,14 +745,14 @@ p.tag {
   z-index: 8040;
 }
 .fancybox-prev {
-  left: 0;
+  left: 30px;
 }
 .fancybox-next {
-  right: 0;
+  right: 30px;
 }
 .fancybox-nav span {
   position: absolute;
-  top: 50%;
+  top: 70%;
   width: 36px;
   height: 34px;
   margin-top: -18px;
@@ -873,6 +876,24 @@ p.tag {
     background-size: 24px 24px;
     /*The size of the normal image, half the size of the hi-res image*/
   }
+}
+#branding-item {
+  width: 900px;
+}
+#branding-item h3 {
+  margin-top: 273px;
+  font-size: 3.3125em;
+}
+#branding-item h4 {
+  font-size: 2em;
+  padding-top: 20px;
+}
+#branding-item h4:after {
+  width: 112px;
+  margin-top: 35px;
+}
+#branding-item img {
+  width: 100%;
 }
 /*
  * jQuery FlexSlider v2.0
@@ -1422,7 +1443,142 @@ section#clients article.client:hover img.background {
   margin: -10% 0 0 -10%;
 }
 /******** START CONTACT SECTION STYLES *********/
+section#contact article.left {
+  display: inline-block;
+  vertical-align: top;
+  width: 60%;
+}
+section#contact article.left input,
+section#contact article.left textarea {
+  width: 97%;
+  background-color: #fff;
+  border: 1px solid #b7b7b7;
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: .8em;
+  line-height: 4.25em;
+  color: #000;
+  letter-spacing: .6px;
+  text-transform: uppercase;
+  padding-left: 3%;
+  margin-bottom: 36px;
+}
+section#contact article.left textarea {
+  height: 210px;
+  resize: none;
+}
+section#contact article.left button.submit {
+  margin-top: 48px;
+  float: right;
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.15em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  background-color: transparent;
+  text-decoration: none;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+section#contact article.left button.submit:hover {
+  background-color: #000;
+  color: #fff;
+}
+section#contact article.right {
+  display: inline-block;
+  vertical-align: top;
+  width: 29%;
+  margin-left: 10%;
+}
+section#contact article.right h4 {
+  font-family: "refrigerator-deluxe-n9", "refrigerator-deluxe", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.25em;
+  color: #993c36;
+  text-align: left;
+  letter-spacing: .1px;
+  text-transform: uppercase;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+section#contact article.right h4:after {
+  border-bottom: none;
+  margin: 0;
+}
+section#contact article.right p {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.25em;
+  text-align: justify;
+  padding: 17px 0;
+}
+section#contact article.right p span {
+  display: block;
+}
+section#contact article.right p span a {
+  color: #000;
+  text-decoration: none;
+}
+section#contact article.right p span a:hover {
+  color: #993c36;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
 /******** START MAIN FOOTER STYLES *********/
+footer {
+  background: url(/_assets/img/footer.jpg) no-repeat center center transparent;
+  background-size: cover;
+  margin-top: 112px;
+}
+footer .socials {
+  padding: 140px 0 128px;
+  float: left;
+}
+footer .socials a {
+  font-size: 3em;
+  color: #000;
+  margin-right: 20px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+footer .socials a:hover {
+  color: #fff;
+}
+footer span.icon-logo {
+  float: left;
+  font-size: 14.25em;
+  color: #fff;
+  margin: 50px 0 0 100px;
+  width: 520px;
+}
+footer p {
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  padding: 140px 0 128px;
+  font-size: .8em;
+  color: #000;
+  text-align: right;
+  float: right;
+  width: 200px;
+}
 /*================================================*/
 /*================  PAGE STYLES  ================*/
 /*==============================================*/

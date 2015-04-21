@@ -82,13 +82,13 @@
 
 		<div id="container" class="clearfix">
 
-			<a class="portfolio-item fancybox branding" href="#branding-item" title="Branding Item" data-fancybox-group="branding">
+			<a class="portfolio-item fancybox branding" href="#branding-item" title="10 out of Tenn poster" data-fancybox-group="branding">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">10 out of Tenn poster</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
@@ -98,8 +98,12 @@
 
 			</a><!--portfolio-item-->
 		
-			<div id="branding-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div id="branding-item" style="display: none;">
+				<h3>10 out of TENN</h3>
+				<h4>Show poster</h4>
+				<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. </p>
+				<img src="/_assets/img/portfolio-10outoftenn.jpg" alt="10 out of Tenn poster" title="10 out of Tenn poster">
+				<img src="/_assets/img/portfolio-10outoftenn2.jpg" alt="10 out of Tenn poster" title="10 out of Tenn poster">
 			</div>
 
 			<a class="portfolio-item fancybox branding" href="#branding-item2" title="Branding Item 2" data-fancybox-group="branding">
@@ -442,6 +446,68 @@
 
 </section><!--clients-->
 
+<section id="contact">
+
+	<div class="inner">
+
+		<h3>Connect.</h3>
+
+		<h4>We’d love to hear from you.</h4>
+	
+		<article class="left">
+
+		    <?php
+		        $name = $_REQUEST['name'] ;
+		        $email = $_REQUEST['email'] ;
+		        $subject = $_REQUEST['subject'] ;
+		        $msg = $_REQUEST['msg'] ;
+		        if (isset($_POST['submit'])) {
+		          $to = 'lindseyemaddox@gmail.com';
+		          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
+		          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+		          $headers .= "MIME-Version: 1.0\r\n";
+		          $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+		          $message = '<html><body>';
+		          $message .= 'Name: '.$name.'<br>';
+		          $message .= 'Subject: '.$subject.'<br>';
+		          $message .= 'Email: '.$email.'<br>';
+		          $message .= 'Message: '.$msg.'<br>';
+		          $message .= '</body></html>';
+		          $subject = 'new form submission';
+
+		    mail($to, $subject, $message, $headers);
+		    echo "<div style='padding: 50px 20px 80px; color: #993c36; text-align: center;font-family:proxima-nova, sans-serif;'><label>Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+		  }
+		else
+		  { echo "
+		        <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
+		        <input type='text' required name='name' id='name' size='10' placeholder='Name'>
+		        <input type='text' required name='email' id='email' size='10' placeholder='Email'>
+		        <input type='text' required name='subject' id='subject' size='10' placeholder='Subject'>
+		        <textarea name='msg' id='msg' >Message</textarea>
+		        <button class='submit' type='submit' name='submit'>Submit</button>
+		      	</form>";
+		      }
+		    ?>
+
+		</article><!--left-->
+
+		<article class="right">
+
+			<h4>Let’s Talk.</h4>
+
+			<p>We would love to hear from you. Feel free to give us a shout any time to talk shop, say hello, or to get our kale salad recipe (it’s spectacular). </p>
+
+			<h4>Give us a ring.</h4>
+
+			<p><span><a href="tel:6152432779">(615) 243-2779</a></span>
+			<span><a href="tel:6155131424">(615) 513-1424</a></span></p>
+
+		</article><!--right-->
+
+	</div><!--inner-->
+
+</section><!--contact-->
 
 <script>
 
