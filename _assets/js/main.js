@@ -95,7 +95,7 @@ function stickyNav() {
     $(window).resize(function(){
         if ($(window).width() > 960) {
             $('nav').scrollspy({
-                min: $('nav').offset().top,
+                min: $('nav').offset().top+1041,
                 max: $('footer').offset().top,
                 container: window,
                 onEnter: function() {
@@ -109,7 +109,7 @@ function stickyNav() {
     });
     if ($(window).width() > 960) {
         $('nav').scrollspy({
-            min: $('nav').offset().top,
+            min: $('nav').offset().top+1041,
             max: $('footer').offset().top,
             container: window,
             onEnter: function() {
