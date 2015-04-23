@@ -9,7 +9,7 @@
 	
 				<img src="/_assets/img/logo-horizontal.png" alt="Stunt Double Creative logo" title="Stunt Double Creative logo">
 
-			</div><!--img-->
+			</div><!--logo-->
 
 			<ul id="main">
 				<li><a href="#about" id="about-link">About</a></li>

@@ -437,7 +437,6 @@ footer {
 }
 body {
   -webkit-font-smoothing: antialiased;
-  position: relative;
 }
 .inner {
   max-width: 1210px;
@@ -1114,6 +1113,7 @@ header nav {
 header nav.fixed {
   background-color: #fff;
   position: fixed;
+  z-index: 9;
   top: 0;
   height: 100px;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
@@ -1558,9 +1558,11 @@ section#contact article.right p span a:hover {
 }
 /******** START MAIN FOOTER STYLES *********/
 footer {
-  background: url(/_assets/img/footer.jpg) no-repeat center center transparent;
-  background-size: cover;
+  background-image: url(/_assets/img/footer.jpg);
+  background-attachment: fixed;
+  background-position: center bottom;
   margin-top: 112px;
+  height: 320px;
 }
 footer .socials {
   padding: 140px 0 128px;
