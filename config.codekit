@@ -83,29 +83,6 @@
 		"strictUnits": 0
 		},
 	"\/_assets\/css\/less\/molecules\/molecules.less": {
-<<<<<<< Updated upstream
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_assets\/css\/less\/molecules\/molecules.less",
-		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/molecules.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
-	"\/_assets\/css\/less\/organisms\/about.less": {
-=======
->>>>>>> Stashed changes
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -135,6 +112,26 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/about.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/about.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/_assets\/css\/less\/organisms\/clients.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/clients.less",
+		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/clients.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -548,6 +545,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_assets\/img\/logo-snipe.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1632,
+		"inputAbbreviatedPath": "\/_assets\/img\/logo-snipe.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/logo-snipe.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/portfolio-10outoftenn.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211134,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-10outoftenn.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-10outoftenn.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/portfolio-10outoftenn2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 520404,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-10outoftenn2.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-10outoftenn2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/portfolio-bholland1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 123768,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland1.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/portfolio-bholland2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182396,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland2.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/portfolio-bholland3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 167690,
+		"inputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland3.jpg",
+		"outputAbbreviatedPath": "\/_assets\/img\/portfolio-bholland3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_assets\/img\/portfolio-placeholder.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -606,17 +669,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_assets\/js\/chosen.jquery.min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_assets\/js\/chosen.jquery.min.js",
-		"outputAbbreviatedPath": "\/_assets\/js\/min\/chosen.jquery.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_assets\/js\/fancybox.jquery.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -652,10 +704,21 @@
 		},
 	"\/_assets\/js\/main.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/js\/main.js",
 		"outputAbbreviatedPath": "\/_assets\/js\/min\/main-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_assets\/js\/scrollspy.jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_assets\/js\/scrollspy.jquery.js",
+		"outputAbbreviatedPath": "\/_assets\/js\/min\/scrollspy.jquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
