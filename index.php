@@ -74,6 +74,7 @@
 				<li><a class="btn" href="#filter" data-option-value=".branding">Branding</a></li>
 				<li><a class="btn" href="#filter" data-option-value=".print">Print</a></li>
 				<li><a class="btn" href="#filter" data-option-value=".web-design">Web Design</a></li>
+				<li><a class="btn" href="#filter" data-option-value=".illustration">Illustration</a></li>
 	        </ul>
 
 	    </div><!--options-->
@@ -82,169 +83,396 @@
 
 		<div id="container" class="clearfix">
 
-			<a class="portfolio-item fancybox branding" href="#branding-item" title="10 out of Tenn poster" data-fancybox-group="branding">
+			<a class="portfolio-item fancybox print" href="#tenn" title="10 out of TN poster" data-fancybox-group="print">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">10 out of Tenn poster</p>
+					<p class="project-title">10 out of TN poster</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-10tn.jpg" alt="10 out of TN poster thumb" title="10 out of TN poster thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="branding-item" style="display: none;">
+			<div class="lightbox" id="tenn" style="display: none;">
 				<h3>10 out of TENN</h3>
 				<h4>Show poster</h4>
 				<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. </p>
-				<img src="/_assets/img/portfolio-10outoftenn.jpg" alt="10 out of Tenn poster" title="10 out of Tenn poster">
-				<img src="/_assets/img/portfolio-10outoftenn2.jpg" alt="10 out of Tenn poster" title="10 out of Tenn poster">
+				<img src="/_assets/img/portfolio-10outoftenn.jpg" alt="10 out of TN poster" title="10 out of TN poster">
+				<img src="/_assets/img/portfolio-10outoftenn2.jpg" alt="10 out of TN poster" title="10 out of TN poster">
 			</div>
 
-			<a class="portfolio-item fancybox branding" href="#branding-item2" title="Branding Item 2" data-fancybox-group="branding">
+			<a class="portfolio-item fancybox print" href="#bhollandpackage" title="Brandon Holland package" data-fancybox-group="print">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Brandon Holland package</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-hollandcd.jpg" alt="Brandon Holland package thumb" title="Brandon Holland package thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="branding-item2" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="bhollandpackage" style="display: none;">
+				<h3>Brandon Holland package</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-bholland1.jpg" alt="Brandon Holland package" title="Brandon Holland package">
+				<img src="/_assets/img/portfolio-bholland2.jpg" alt="Brandon Holland package" title="Brandon Holland package">
+				<img src="/_assets/img/portfolio-bholland3.jpg" alt="Brandon Holland package" title="Brandon Holland package">
 			</div>
 
-			<a class="portfolio-item fancybox print" href="#print-item" title="Print Item" data-fancybox-group="print">
+			<a class="portfolio-item fancybox web-design" href="#bhollandsite" title="Brandon Holland site" data-fancybox-group="web-design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Brandon Holland site</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-brandonholland.jpg" alt="Brandon Holland site thumb" title="Brandon Holland site thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="print-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="bhollandsite" style="display: none;">
+				<h3>Brandon Holland site</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-bholland-site1.jpg" alt="Brandon Holland site" title="Brandon Holland site">
+				<img src="/_assets/img/portfolio-bholland-site2.jpg" alt="Brandon Holland site" title="Brandon Holland site">
 			</div>
 
-			<a class="portfolio-item fancybox web-design" href="#web-design-item" title="Web Design Item" data-fancybox-group="web-design">
+			<a class="portfolio-item fancybox illustration" href="#citymaps" title="City Maps" data-fancybox-group="illustration">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">City Maps</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-cities.jpg" alt="City Maps thumb" title="City Maps thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="web-design-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="citymaps" style="display: none;">
+				<h3>City Maps</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-cities.jpg" alt="City Maps - Nashville" title="City Maps - Nashville">
 			</div>
 
-			<a class="portfolio-item fancybox branding" href="#branding-item" title="Branding Item" data-fancybox-group="branding">
+			<a class="portfolio-item fancybox branding" href="#crowdsurf" title="Crowd Surf" data-fancybox-group="branding">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Crowd Surf</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-crowdsurf.jpg" alt="Crowd Surf thumb" title="Crowd Surf thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="branding-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="crowdsurf" style="display: none;">
+				<h3>Crowd Surf</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-crowdsurf-logo.jpg" alt="Crowd Surf logo" title="Crowd Surf logo">
+				<img src="/_assets/img/portfolio-crowdsurf-pass.jpg" alt="Crowd Surf pass" title="Crowd Surf pass">
 			</div>
 
-			<a class="portfolio-item fancybox branding" href="#branding-item2" title="Branding Item 2" data-fancybox-group="branding">
+			<a class="portfolio-item fancybox print illustration" href="#downtowndental" title="Downtown Dental" data-fancybox-group="print illustration">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Downtown Dental</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-dd.jpg" alt="Downtown Dental thumb" title="Downtown Dental thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="branding-item2" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="downtowndental" style="display: none;">
+				<h3>Downtown Dental</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-downtowndental1.jpg" alt="Downtown Dental" title="Downtown Dental">
+				<img src="/_assets/img/portfolio-downtowndental2.jpg" alt="Downtown Dental" title="Downtown Dental">
 			</div>
 
-			<a class="portfolio-item fancybox print" href="#print-item" title="Print Item" data-fancybox-group="print">
+			<a class="portfolio-item fancybox web-design" href="#dot" title="Dot Presentation" data-fancybox-group="web-design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Dot Presentation</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-dot.jpg" alt="Dot Presentation thumb" title="Dot Presentation thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="print-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="dot" style="display: none;">
+				<h3>Dot Presentation</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-dot1.jpg" alt="Dot Presentation" title="Dot Presentation">
+				<img src="/_assets/img/portfolio-dot2.jpg" alt="Dot Presentation" title="Dot Presentation">
+				<img src="/_assets/img/portfolio-dot3.jpg" alt="Dot Presentation" title="Dot Presentation">
+				<img src="/_assets/img/portfolio-dot4.jpg" alt="Dot Presentation" title="Dot Presentation">
+				<img src="/_assets/img/portfolio-dot5.jpg" alt="Dot Presentation" title="Dot Presentation">
 			</div>
 
-			<a class="portfolio-item fancybox web-design" href="#web-design-item" title="Web Design Item" data-fancybox-group="web-design">
+			<a class="portfolio-item fancybox web-design" href="#hayessite" title="Hunter Hayes Splash" data-fancybox-group="web-design">
 
 				<div class="overlay"></div><!--overlay-->
 
 				<div class="text">
 
-					<p class="project-title">Project Title</p>
+					<p class="project-title">Hunter Hayes Splash</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
 				</div><!--text-->
 
-				<img src="/_assets/img/portfolio-placeholder.jpg" alt="" title="">
+				<img src="/_assets/img/portfolio-thumb-hunterhayes.jpg" alt="Hunter Hayes Splash thumb" title="Hunter Hayes Splash thumb">
 
 			</a><!--portfolio-item-->
 		
-			<div id="web-design-item" style="width:400px;display: none;">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis mi eu elit tempor facilisis id et neque. Nulla sit amet sem sapien. Vestibulum imperdiet porta ante ac ornare. Nulla et lorem eu nibh adipiscing ultricies nec at lacus. Cras laoreet ultricies sem, at blandit mi eleifend aliquam. Nunc enim ipsum, vehicula non pretium varius, cursus ac tortor. Vivamus fringilla congue laoreet. Quisque ultrices sodales orci, quis rhoncus justo auctor in. Phasellus dui eros, bibendum eu feugiat ornare, faucibus eu mi. Nunc aliquet tempus sem, id aliquam diam varius ac. Maecenas nisl nunc, molestie vitae eleifend vel, iaculis sed magna. Aenean tempus lacus vitae orci posuere porttitor eget non felis. Donec lectus elit, aliquam nec eleifend sit amet, vestibulum sed nunc.</p>
+			<div class="lightbox" id="hayessite" style="display: none;">
+				<h3>Hunter Hayes Splash</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-hayes-splash1.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
+				<img src="/_assets/img/portfolio-hayes-splash2.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
 			</div>
+
+			<a class="portfolio-item fancybox print" href="#hayescd" title="Hunter Hayes package" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Hunter Hayes package</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-hayescd.jpg" alt="Hunter Hayes package thumb" title="Hunter Hayes package thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="hayescd" style="display: none;">
+				<h3>Hunter Hayes package</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-hayescd1.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
+				<img src="/_assets/img/portfolio-hayescd2.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
+				<img src="/_assets/img/portfolio-hayescd3.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
+				<img src="/_assets/img/portfolio-hayescd4.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
+			</div>
+
+			<a class="portfolio-item fancybox print" href="#mtbrochure" title="Maddie & Tae brochure" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Maddie & Tae brochure</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-conway.jpg" alt="Maddie & Tae brochure thumb" title="Maddie & Tae brochure thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="mtbrochure" style="display: none;">
+				<h3>Maddie & Tae brochure</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-mtbro1.jpg" alt="Maddie & Tae brochure" title="Maddie & Tae brochure">
+				<img src="/_assets/img/portfolio-mtbro2.jpg" alt="Maddie & Tae brochure" title="Maddie & Tae brochure">
+			</div>
+
+			<a class="portfolio-item fancybox branding" href="#mobaglo" title="Mobaglo" data-fancybox-group="branding">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Mobaglo</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-mobaglo.jpg" alt="Mobaglo thumb" title="Mobaglo thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="mobaglo" style="display: none;">
+				<h3>Mobaglo</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-mobaglo.jpg" alt="Mobaglo" title="Mobaglo">
+				<img src="/_assets/img/portfolio-mobaglo-logo.jpg" alt="Mobaglo logo" title="Mobaglo logo">
+			</div>
+
+			<a class="portfolio-item fancybox print" href="#pepsi" title="Pepsi" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Pepsi Cans</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-pepsi.jpg" alt="Pepsi can thumb" title="Pepsi can thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="pepsi" style="display: none;">
+				<h3>Pepsi</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-pepsi.jpg" alt="Pepsi cans" title="Pepsi cans">
+				<img src="/_assets/img/portfolio-pepsi-sevenup.jpg" alt="7up cans" title="7up cans">
+			</div>
+
+			<a class="portfolio-item fancybox print branding" href="#sinclair" title="Sinclair package" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Sinclair package</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-sinclair.jpg" alt="Sinclair package thumb" title="Sinclair package thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="sinclair" style="display: none;">
+				<h3>Sinclair package</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-sinclair1.jpg" alt="Sinclair package" title="Sinclair package">
+				<img src="/_assets/img/portfolio-sinclair2.jpg" alt="Sinclair package" title="Sinclair package">
+				<img src="/_assets/img/portfolio-sinclair3.jpg" alt="Sinclair package" title="Sinclair package">
+			</div>
+
+			<a class="portfolio-item fancybox print branding" href="#slamon" title="Slamon CPA" data-fancybox-group="print">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Slamon CPA</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-sos.jpg" alt="Slamon CPA thumb" title="Slamon CPA thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="slamon" style="display: none;">
+				<h3>Slamon CPA</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-slamon1.jpg" alt="Slamon CPA" title="Slamon CPA">
+				<img src="/_assets/img/portfolio-slamon2.jpg" alt="Slamon CPA" title="Slamon CPA">
+			</div>
+
+			<a class="portfolio-item fancybox branding" href="#weroc" title="WEROC" data-fancybox-group="branding">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">WEROC</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-weroc.jpg" alt="WEROC thumb" title="WEROC thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="weroc" style="display: none;">
+				<h3>WEROC</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-weroc1.jpg" alt="WEROC logo" title="WEROC logo">
+				<img src="/_assets/img/portfolio-weroc2.jpg" alt="WEROC logo" title="WEROC logo">
+			</div>
+
+			<a class="portfolio-item fancybox branding" href="#hear" title="We're Hear For You" data-fancybox-group="branding">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">We're Hear For You</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-whfy.jpg" alt="We're Hear For You thumb" title="We're Hear For You thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="hear" style="display: none;">
+				<h3>We're Hear For You</h3>
+				<h4>subhead</h4>
+				<p>desc</p>
+				<img src="/_assets/img/portfolio-whfy.jpg" alt="We're Hear For You logo" title="We're Hear For You logo">
+				<img src="/_assets/img/portfolio-whfy-logo.jpg" alt="We're Hear For You logo" title="We're Hear For You logo">
+			</div>
+
 
 		</div><!--container-->
 

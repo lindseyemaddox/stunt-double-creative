@@ -877,23 +877,27 @@ p.tag {
     /*The size of the normal image, half the size of the hi-res image*/
   }
 }
-#branding-item {
+.lightbox {
   width: 900px;
 }
-#branding-item h3 {
+.lightbox h3 {
   margin-top: 273px;
   font-size: 3.3125em;
 }
-#branding-item h4 {
+.lightbox h4 {
   font-size: 2em;
   padding-top: 20px;
 }
-#branding-item h4:after {
+.lightbox h4:after {
   width: 112px;
   margin-top: 35px;
 }
-#branding-item img {
+.lightbox p {
+  margin-bottom: 60px;
+}
+.lightbox img {
   width: 100%;
+  margin-bottom: 20px;
 }
 /*
  * jQuery FlexSlider v2.0

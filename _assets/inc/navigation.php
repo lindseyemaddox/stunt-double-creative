@@ -14,8 +14,8 @@
 			<ul id="main">
 				<li><a href="#about" id="about-link">About</a></li>
 				<li><a href="#portfolio" id="portfolio-link">Portfolio</a></li>
-				<li><a href="#clients" id="clients-link">Clients</a></li>
 				<li><a href="#services" id="services-link">Services</a></li>
+                <li><a href="#clients" id="clients-link">Clients</a></li>
 				<li><a href="#contact" id="contact-link">Contact</a></li>
 				<li id="line"></li>
 			</ul>
