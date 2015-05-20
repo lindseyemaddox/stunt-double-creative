@@ -30,6 +30,9 @@ header {
 					.transition;
 				}
 			}
+			li a#top-link {
+				display: inline-block;
+			}
 		}
 		div#logo {
 			position: absolute;
@@ -51,8 +54,11 @@ header {
 				a {
 					color: #fff;
 					text-decoration: none;
+					&#top-link {
+						display: none;
+					}
 				}
-				&:first-child {
+				a#about-link {
 					padding-left: 0;
 				}
 				&#line {

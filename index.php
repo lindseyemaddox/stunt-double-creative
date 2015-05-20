@@ -17,7 +17,7 @@
 			
 						<p class="tag">Hunter Hayes’ first european release drops in the UK on april 25th. Check out his new look.</p>
 		
-						<div class="btnBox"><a class="btn alt fancybox" href="#branding-item">Check it out</a></div>
+						<div class="btnBox"><a class="btn alt fancybox" href="#hayescd">Check it out</a></div>
 
 					</div><!--text-->
 		
@@ -102,7 +102,7 @@
 			<div class="lightbox" id="tenn" style="display: none;">
 				<h3>10 out of TENN</h3>
 				<h4>Show poster</h4>
-				<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. </p>
+				<p>Our friends at 10 Out of Tenn approached us with a need, and let us take the reins on what ended up being a really fun project for us. This show poster was sold during their Ryman Auditorium show in April of 2015, and was used to promote the sold-out show prior to that.</p>
 				<img src="/_assets/img/portfolio-10outoftenn.jpg" alt="10 out of TN poster" title="10 out of TN poster">
 				<img src="/_assets/img/portfolio-10outoftenn2.jpg" alt="10 out of TN poster" title="10 out of TN poster">
 			</div>
@@ -124,9 +124,9 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="bhollandpackage" style="display: none;">
-				<h3>Brandon Holland package</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Brandon Holland</h3>
+				<h4>Branding</h4>
+				<p>Nashville-based recording artist Brandon Holland had never had so much as a logo before we met. Now, equiped with new branding and an EP designed by us at Stunt Double Creative, Brandon is playing and promoting with a newfound confidence in his step.</p>
 				<img src="/_assets/img/portfolio-bholland1.jpg" alt="Brandon Holland package" title="Brandon Holland package">
 				<img src="/_assets/img/portfolio-bholland2.jpg" alt="Brandon Holland package" title="Brandon Holland package">
 				<img src="/_assets/img/portfolio-bholland3.jpg" alt="Brandon Holland package" title="Brandon Holland package">
@@ -149,9 +149,9 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="bhollandsite" style="display: none;">
-				<h3>Brandon Holland site</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Brandon Holland</h3>
+				<h4>Website</h4>
+				<p>After working with Brandon and his team to develop a new identity and EP packaging, they came to us for their next big need: a website. Utilizing the social media sites that Brandon was already posting to, we designed a site that took the content he was generating, and integrated it into his website automatically. Check it out at <a href="http://www.brandonhollandmusic.com" target="_blank" rel="nofollow">www.brandonhollandmusic.com</a></p>
 				<img src="/_assets/img/portfolio-bholland-site1.jpg" alt="Brandon Holland site" title="Brandon Holland site">
 				<img src="/_assets/img/portfolio-bholland-site2.jpg" alt="Brandon Holland site" title="Brandon Holland site">
 			</div>
@@ -174,8 +174,8 @@
 		
 			<div class="lightbox" id="citymaps" style="display: none;">
 				<h3>City Maps</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Block Prints</h4>
+				<p>Before we at Stunt Double Creative were designers, we were artists. That is why we make it a point to continue to make art with our hands as much as possible. Check out our Cities series and other prints at our ETSY shop, <a href="http://www.stuntdoublecreative.etsy.com" target="_blank" rel="nofollow">www.stuntdoublecreative.etsy.com</a>.</p>
 				<img src="/_assets/img/portfolio-cities.jpg" alt="City Maps - Nashville" title="City Maps - Nashville">
 			</div>
 
@@ -197,8 +197,8 @@
 		
 			<div class="lightbox" id="crowdsurf" style="display: none;">
 				<h3>Crowd Surf</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Identity</h4>
+				<p>Crowd Surf is a marketing company specializing in digital marketing for the entertainment business. With offices in Nashville and LA, Crowd Surf has worked with everyone from Britney Spears and the Backstreet Boys to Taylor Swift and Steven Tyler. When they needed a rebrand in 2014, they called us, and together we came up with solutions that allowed them to stand out, while still looking like the music business pros that they are.</p>
 				<img src="/_assets/img/portfolio-crowdsurf-logo.jpg" alt="Crowd Surf logo" title="Crowd Surf logo">
 				<img src="/_assets/img/portfolio-crowdsurf-pass.jpg" alt="Crowd Surf pass" title="Crowd Surf pass">
 			</div>
@@ -221,8 +221,8 @@
 		
 			<div class="lightbox" id="downtowndental" style="display: none;">
 				<h3>Downtown Dental</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Print Ad</h4>
+				<p>As a promotion for their annual food drive, we helped Downtown Dental stand out with a new look for their print ads.</p>
 				<img src="/_assets/img/portfolio-downtowndental1.jpg" alt="Downtown Dental" title="Downtown Dental">
 				<img src="/_assets/img/portfolio-downtowndental2.jpg" alt="Downtown Dental" title="Downtown Dental">
 			</div>
@@ -244,38 +244,14 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="dot" style="display: none;">
-				<h3>Dot Presentation</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Dot Records</h3>
+				<h4>Presentation</h4>
+				<p>The home of rising Country duo Maddie &amp; Tae, Dot is an old name with a new face in Nashville. The newly re-launched label came to us in 2014 to help them develop their end-of-year presentation. Using decades-old record design as inspiration, we created this one-of-a-kind slideshow to highlight all their success in their first year back in business.</p>
 				<img src="/_assets/img/portfolio-dot1.jpg" alt="Dot Presentation" title="Dot Presentation">
 				<img src="/_assets/img/portfolio-dot2.jpg" alt="Dot Presentation" title="Dot Presentation">
 				<img src="/_assets/img/portfolio-dot3.jpg" alt="Dot Presentation" title="Dot Presentation">
 				<img src="/_assets/img/portfolio-dot4.jpg" alt="Dot Presentation" title="Dot Presentation">
 				<img src="/_assets/img/portfolio-dot5.jpg" alt="Dot Presentation" title="Dot Presentation">
-			</div>
-
-			<a class="portfolio-item fancybox web-design" href="#hayessite" title="Hunter Hayes Splash" data-fancybox-group="web-design">
-
-				<div class="overlay"></div><!--overlay-->
-
-				<div class="text">
-
-					<p class="project-title">Hunter Hayes Splash</p>
-
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
-
-				</div><!--text-->
-
-				<img src="/_assets/img/portfolio-thumb-hunterhayes.jpg" alt="Hunter Hayes Splash thumb" title="Hunter Hayes Splash thumb">
-
-			</a><!--portfolio-item-->
-		
-			<div class="lightbox" id="hayessite" style="display: none;">
-				<h3>Hunter Hayes Splash</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
-				<img src="/_assets/img/portfolio-hayes-splash1.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
-				<img src="/_assets/img/portfolio-hayes-splash2.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
 			</div>
 
 			<a class="portfolio-item fancybox print" href="#hayescd" title="Hunter Hayes package" data-fancybox-group="print">
@@ -295,13 +271,37 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="hayescd" style="display: none;">
-				<h3>Hunter Hayes package</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Hunter Hayes</h3>
+				<h4>"I Want Crazy" UK Package</h4>
+				<p>When long-time client Hunter Hayes began making plans to release his first album outside of the US, he and his team called Stunt Double Creative to give him the look he needed to stand out. After utilizing chalk and spray paint typography on the first and second Hunter albums, we decided that the next iteration of art-inspired, handmade type should be watercolor. This new look is now being employed by his record labels in the UK and in Australia to create all the secondary and tertiary marketing materials for Hunter’s tour and music sales.</p>
 				<img src="/_assets/img/portfolio-hayescd1.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
 				<img src="/_assets/img/portfolio-hayescd2.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
 				<img src="/_assets/img/portfolio-hayescd3.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
 				<img src="/_assets/img/portfolio-hayescd4.jpg" alt="Hunter Hayes package" title="Hunter Hayes package">
+			</div>
+
+			<a class="portfolio-item fancybox web-design" href="#hayessite" title="Hunter Hayes Splash" data-fancybox-group="web-design">
+
+				<div class="overlay"></div><!--overlay-->
+
+				<div class="text">
+
+					<p class="project-title">Hunter Hayes Splash</p>
+
+					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+
+				</div><!--text-->
+
+				<img src="/_assets/img/portfolio-thumb-hunterhayes.jpg" alt="Hunter Hayes Splash thumb" title="Hunter Hayes Splash thumb">
+
+			</a><!--portfolio-item-->
+		
+			<div class="lightbox" id="hayessite" style="display: none;">
+				<h3>Hunter Hayes</h3>
+				<h4>"I Want Crazy" UK Site</h4>
+				<p>After designing and art directing Hunter’s UK album, we were super excited when his team at Warner Music Nashville reached out to have us design a web page to promote it. Using the handmade watercolor type and textures from the album package, we designed a responsive site to feature his new album, UK tour dates, and newest music video.</p>
+				<img src="/_assets/img/portfolio-hayes-splash1.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
+				<img src="/_assets/img/portfolio-hayes-splash2.jpg" alt="Hunter Hayes Splash" title="Hunter Hayes Splash">
 			</div>
 
 			<a class="portfolio-item fancybox print" href="#mtbrochure" title="Maddie & Tae brochure" data-fancybox-group="print">
@@ -310,7 +310,7 @@
 
 				<div class="text">
 
-					<p class="project-title">Maddie & Tae brochure</p>
+					<p class="project-title">Maddie &amp; Tae brochure</p>
 
 					<p class="project-details">Project info can run onto multiple lines if needed.</p>
 
@@ -321,9 +321,9 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="mtbrochure" style="display: none;">
-				<h3>Maddie & Tae brochure</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Maddie &amp; Tae</h3>
+				<h4>ACM Brochure</h4>
+				<p>When rising Country duo, Maddie &amp; Tae needed a mail piece to promote their Academy of Country Music Award Nominations, they called us at Stunt Double Creative to get the job done. Utilizing a two-color printing process, we drew inspiration from vintage country music albums and posters to design this type-heavy tri-fold brochure. The self-mailed piece drew praise from across Music Row, and stood out with its bright colors and flowing type.</p>
 				<img src="/_assets/img/portfolio-mtbro1.jpg" alt="Maddie & Tae brochure" title="Maddie & Tae brochure">
 				<img src="/_assets/img/portfolio-mtbro2.jpg" alt="Maddie & Tae brochure" title="Maddie & Tae brochure">
 			</div>
@@ -346,8 +346,8 @@
 		
 			<div class="lightbox" id="mobaglo" style="display: none;">
 				<h3>Mobaglo</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Identity</h4>
+				<p>Mobaglo is a fan engagement and app company that needed a mark that was as colorful, modern, and as brilliant as they are, and we were honored to help.</p>
 				<img src="/_assets/img/portfolio-mobaglo.jpg" alt="Mobaglo" title="Mobaglo">
 				<img src="/_assets/img/portfolio-mobaglo-logo.jpg" alt="Mobaglo logo" title="Mobaglo logo">
 			</div>
@@ -369,9 +369,9 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="pepsi" style="display: none;">
-				<h3>Pepsi</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Pepsi + KLOVE</h3>
+				<h4>Promotion</h4>
+				<p>In partnership with KLOVE, Pepsi Midamerica approached us to design a series of cans and POP marketing materials to promote their text-to-win campaign. We sprang to action, creating a can-centric campaign featuring some of Christian music’s top recording artists.</p>
 				<img src="/_assets/img/portfolio-pepsi.jpg" alt="Pepsi cans" title="Pepsi cans">
 				<img src="/_assets/img/portfolio-pepsi-sevenup.jpg" alt="7up cans" title="7up cans">
 			</div>
@@ -393,9 +393,9 @@
 			</a><!--portfolio-item-->
 		
 			<div class="lightbox" id="sinclair" style="display: none;">
-				<h3>Sinclair package</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h3>Sinclair</h3>
+				<h4>Identity &amp; EP</h4>
+				<p>Rising star Sinclair knew what she sounded like, but hadn’t quite figured out her visual sound – that’s where we came in. For her first EP, we produced a photo shoot, logo, and package design that was as cool and fresh as the music inside. </p>
 				<img src="/_assets/img/portfolio-sinclair1.jpg" alt="Sinclair package" title="Sinclair package">
 				<img src="/_assets/img/portfolio-sinclair2.jpg" alt="Sinclair package" title="Sinclair package">
 				<img src="/_assets/img/portfolio-sinclair3.jpg" alt="Sinclair package" title="Sinclair package">
@@ -419,8 +419,8 @@
 		
 			<div class="lightbox" id="slamon" style="display: none;">
 				<h3>Slamon CPA</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Identity</h4>
+				<p>CPA Steve Slamon was new in town, and needed a new look to drive his business. Steve now passes out his cards with a newfound sense of pride, thanks to the work we were able to do with him.</p>
 				<img src="/_assets/img/portfolio-slamon1.jpg" alt="Slamon CPA" title="Slamon CPA">
 				<img src="/_assets/img/portfolio-slamon2.jpg" alt="Slamon CPA" title="Slamon CPA">
 			</div>
@@ -443,8 +443,8 @@
 		
 			<div class="lightbox" id="weroc" style="display: none;">
 				<h3>WEROC</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Identity</h4>
+				<p>After 12 years in the Federal Contracting business, WEROC was ready to take the next step in their journey and rebrand. Drawing inspiration from vintage service station signage, we landed on a solution that conveyed an image as professional and polished as they are, while still remaining both classic and current.</p>
 				<img src="/_assets/img/portfolio-weroc1.jpg" alt="WEROC logo" title="WEROC logo">
 				<img src="/_assets/img/portfolio-weroc2.jpg" alt="WEROC logo" title="WEROC logo">
 			</div>
@@ -467,8 +467,8 @@
 		
 			<div class="lightbox" id="hear" style="display: none;">
 				<h3>We're Hear For You</h3>
-				<h4>subhead</h4>
-				<p>desc</p>
+				<h4>Identity</h4>
+				<p>We’re Hear For You is a non-profit organization focused on educating the masses about hearing loss, with most of their outreach centered around music festivals, concerts, and live events. They needed a logo that could convey the musical aspect of their mission, and together we landed on the icon here. As they grow and expand into new genres and festivals, this is a mark that will speak to any music fan, and stand up against time and trends.</p>
 				<img src="/_assets/img/portfolio-whfy.jpg" alt="We're Hear For You logo" title="We're Hear For You logo">
 				<img src="/_assets/img/portfolio-whfy-logo.jpg" alt="We're Hear For You logo" title="We're Hear For You logo">
 			</div>
@@ -530,9 +530,9 @@
 
 			<div class="text">
 
-				<p class="project-title">Print Title</p>
+				<p class="project-title">Print</p>
 
-				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+				<p class="project-details">Where ink meets paper is where you’ll find our hearts. Need a turntable made out of foam core? No problem. Custom die-cut banana holders? Consider them done. From the simplest business cards, to sublimated signage, to the most complex of custom dies, we’ve got all your ink-based needs covered.</p>
 
 			</div><!--text-->
 
@@ -546,9 +546,9 @@
 
 			<div class="text">
 
-				<p class="project-title">Identity Title</p>
+				<p class="project-title">Identity</p>
 
-				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+				<p class="project-details">More than just logos, a full identity package from Stunt Double Creative will replace your branding questions with exclamations. From typography guidelines to custom-made business suites, we offer 360º of branding for your business.</p>
 
 			</div><!--text-->
 
@@ -562,9 +562,9 @@
 
 			<div class="text">
 
-				<p class="project-title">Computer Title</p>
+				<p class="project-title">Digital</p>
 
-				<p class="project-details">Project info can run onto multiple lines if needed.</p>
+				<p class="project-details">At Stunt Double Creative, if you can think it up, we can make it work. Let us make your screen-based dreams a reality with everything from custom websites to app designs and social media skins.</p>
 
 			</div><!--text-->
 
@@ -697,18 +697,17 @@
 		          $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 		          $message = '<html><body>';
 		          $message .= 'Name: '.$name.'<br>';
-		          $message .= 'Subject: '.$subject.'<br>';
 		          $message .= 'Email: '.$email.'<br>';
+		          $message .= 'Subject: '.$subject.'<br>';
 		          $message .= 'Message: '.$msg.'<br>';
 		          $message .= '</body></html>';
-		          $subject = 'new form submission';
+		          $subject = 'form submission';
 
 		    mail($to, $subject, $message, $headers);
-		    echo "<div style='padding: 50px 20px 80px; color: #993c36; text-align: center;font-family:proxima-nova, sans-serif;'><label>Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+		    echo "<div style='padding: 50px 20px 80px; color: #993c36; text-align: center;font-family:proxima-nova, sans-serif;'><label>Thank you for contacting us, someone will be in touch with you shortly.</label></div>";
 		  }
 		else
-		  { echo "
-		        <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
+		  { echo "<form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
 		        <input type='text' required name='name' id='name' size='10' placeholder='Name'>
 		        <input type='text' required name='email' id='email' size='10' placeholder='Email'>
 		        <input type='text' required name='subject' id='subject' size='10' placeholder='Subject'>

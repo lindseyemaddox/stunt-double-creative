@@ -5,16 +5,16 @@
 
 		<div class="socials">
 		
-			<a href="#" class="icon-facebook"></a>
-			<a href="#" class="icon-instagram"></a>
-			<a href="#" class="icon-twitter"></a>
-			<a href="#" class="icon-etsy"></a>
+			<a href="https://www.facebook.com/stuntdoublecreative" target="_blank" rel="nofollow" class="icon-facebook"></a>
+			<a href="https://instagram.com/stuntdoublecreative/" target="_blank" rel="nofollow" class="icon-instagram"></a>
+			<a href="https://twitter.com/stntdblcreates/" target="_blank" rel="nofollow" class="icon-twitter"></a>
+			<a href="https://www.etsy.com/shop/StuntDoubleCreative" target="_blank" rel="nofollow" class="icon-etsy"></a>
 
 		</div><!--socials-->
 
 		<span class="icon-logo"></span>
 
-		<p>©2015 Stunt Double Creative, LLC<br/>All Rights Reserved.</p>
+		<p>&copy;<?php echo date("Y"); ?> Stunt Double Creative, LLC<br/>All Rights Reserved.</p>
 
 		<div class="clear"></div>
 

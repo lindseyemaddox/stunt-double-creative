@@ -1147,6 +1147,9 @@ header nav.fixed div#logo img {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+header nav.fixed li a#top-link {
+  display: inline-block;
+}
 header nav div#logo {
   position: absolute;
   left: 0;
@@ -1172,7 +1175,10 @@ header nav ul li a {
   color: #fff;
   text-decoration: none;
 }
-header nav ul li:first-child {
+header nav ul li a#top-link {
+  display: none;
+}
+header nav ul li a#about-link {
   padding-left: 0;
 }
 header nav ul li#line {
