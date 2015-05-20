@@ -712,6 +712,7 @@
 		        <input type='text' required name='email' id='email' size='10' placeholder='Email'>
 		        <input type='text' required name='subject' id='subject' size='10' placeholder='Subject'>
 		        <textarea name='msg' id='msg' >Message</textarea>
+		        <div class='g-recaptcha' data-sitekey='6LcfHwcTAAAAAHh2Gdeke76AZD3k9V6uiyh809IM'></div>
 		        <button class='submit' type='submit' name='submit'>Submit</button>
 		      	</form>";
 		      }

@@ -1567,6 +1567,15 @@ section#contact article.right p span a:hover {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+.g-recaptcha div {
+  width: 100%;
+}
+.g-recaptcha div div {
+  width: 100%!important;
+}
+.g-recaptcha div div iframe {
+  float: right;
+}
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-image: url(/_assets/img/footer.jpg);
