@@ -100,6 +100,7 @@ function stickyNav() {
                 container: window,
                 onEnter: function() {
                     $("nav").addClass('fixed');
+                    $('#main').append('<li><a href="#top" id="top-link">Top</a></li>');
                 },
                 onLeave: function() {
                     $("nav").removeClass('fixed');
