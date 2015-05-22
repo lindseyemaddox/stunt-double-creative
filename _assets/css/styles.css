@@ -1193,6 +1193,7 @@ header nav ul li#line {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+/******** END MAIN HEADER AND NAVIGATION STYLES *********/
 /******** START ABOUT SECTION STYLES *********/
 section#about div.left {
   width: 39%;
@@ -1202,6 +1203,7 @@ section#about div.right {
   width: 54%;
   margin-left: 6%;
 }
+/******** END ABOUT SECTION STYLES *********/
 /******** START PORTFOLIO SECTION STYLES *********/
 section#portfolio div#options {
   margin-bottom: 60px;
@@ -1290,6 +1292,7 @@ section#portfolio a.portfolio-item:hover img {
   width: 200%;
   margin: -50% 0 0 -50%;
 }
+/******** END PORTFOLIO SECTION STYLES *********/
 /******** START TEAM SECTION STYLES *********/
 section#team div > div {
   width: 49%;
@@ -1311,6 +1314,7 @@ section#team div.right {
 section#team p {
   margin: 0 -16%;
 }
+/******** END TEAM SECTION STYLES *********/
 /******** START SERVICES SECTION STYLES *********/
 section#services article {
   display: inline-block;
@@ -1358,7 +1362,7 @@ section#services article div.text {
   font-size: 1em;
   text-align: center;
   color: #fff;
-  padding: 35% 0 0;
+  padding: 25% 0 0;
   z-index: 1;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -1403,6 +1407,7 @@ section#services article:hover span {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+/******** END SERVICES SECTION STYLES *********/
 /******** START CLIENTS SECTION STYLES *********/
 section#clients article.client {
   width: 19%;
@@ -1471,6 +1476,7 @@ section#clients article.client:hover img.background {
   width: 120%;
   margin: -10% 0 0 -10%;
 }
+/******** END CLIENTS SECTION STYLES *********/
 /******** START CONTACT SECTION STYLES *********/
 section#contact article.left {
   display: inline-block;
@@ -1576,6 +1582,7 @@ section#contact article.right p span a:hover {
 .g-recaptcha div div iframe {
   float: right;
 }
+/******** END CONTACT SECTION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 footer {
   background-image: url(/_assets/img/footer.jpg);
@@ -1619,6 +1626,7 @@ footer p {
   float: right;
   width: 200px;
 }
+/******** END FOOTER STYLES *********/
 /*================================================*/
 /*================  PAGE STYLES  ================*/
 /*==============================================*/

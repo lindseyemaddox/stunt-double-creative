@@ -91,7 +91,7 @@
 
 					<p class="project-title">10 out of TN poster</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print</p>
 
 				</div><!--text-->
 
@@ -115,7 +115,7 @@
 
 					<p class="project-title">Brandon Holland package</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print</p>
 
 				</div><!--text-->
 
@@ -140,7 +140,7 @@
 
 					<p class="project-title">Brandon Holland site</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Web Design</p>
 
 				</div><!--text-->
 
@@ -164,7 +164,7 @@
 
 					<p class="project-title">City Maps</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Illustration</p>
 
 				</div><!--text-->
 
@@ -187,7 +187,7 @@
 
 					<p class="project-title">Crowd Surf</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Branding</p>
 
 				</div><!--text-->
 
@@ -211,7 +211,7 @@
 
 					<p class="project-title">Downtown Dental</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print, Illustration</p>
 
 				</div><!--text-->
 
@@ -235,7 +235,7 @@
 
 					<p class="project-title">Dot Presentation</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Web Design</p>
 
 				</div><!--text-->
 
@@ -262,7 +262,7 @@
 
 					<p class="project-title">Hunter Hayes package</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print</p>
 
 				</div><!--text-->
 
@@ -288,7 +288,7 @@
 
 					<p class="project-title">Hunter Hayes Splash</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Web Design</p>
 
 				</div><!--text-->
 
@@ -312,7 +312,7 @@
 
 					<p class="project-title">Maddie &amp; Tae brochure</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print</p>
 
 				</div><!--text-->
 
@@ -336,7 +336,7 @@
 
 					<p class="project-title">Mobaglo</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Branding</p>
 
 				</div><!--text-->
 
@@ -360,7 +360,7 @@
 
 					<p class="project-title">Pepsi Cans</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print</p>
 
 				</div><!--text-->
 
@@ -384,7 +384,7 @@
 
 					<p class="project-title">Sinclair package</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print, Branding</p>
 
 				</div><!--text-->
 
@@ -409,7 +409,7 @@
 
 					<p class="project-title">Slamon CPA</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Print, Branding</p>
 
 				</div><!--text-->
 
@@ -433,7 +433,7 @@
 
 					<p class="project-title">WEROC</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Branding</p>
 
 				</div><!--text-->
 
@@ -457,7 +457,7 @@
 
 					<p class="project-title">We're Hear For You</p>
 
-					<p class="project-details">Project info can run onto multiple lines if needed.</p>
+					<p class="project-details">Branding</p>
 
 				</div><!--text-->
 
@@ -532,7 +532,7 @@
 
 				<p class="project-title">Print</p>
 
-				<p class="project-details">Where ink meets paper is where you’ll find our hearts. Need a turntable made out of foam core? No problem. Custom die-cut banana holders? Consider them done. From the simplest business cards, to sublimated signage, to the most complex of custom dies, we’ve got all your ink-based needs covered.</p>
+				<p class="project-details">From the simplest business cards, to the most complex custom packages, high-end print design is in our blood.</p>
 
 			</div><!--text-->
 
@@ -548,7 +548,7 @@
 
 				<p class="project-title">Identity</p>
 
-				<p class="project-details">More than just logos, a full identity package from Stunt Double Creative will replace your branding questions with exclamations. From typography guidelines to custom-made business suites, we offer 360º of branding for your business.</p>
+				<p class="project-details">Your organization is unique, and has a story to tell. Let us help you tell it using our integrated branding solutions.</p>
 
 			</div><!--text-->
 
@@ -564,7 +564,7 @@
 
 				<p class="project-title">Digital</p>
 
-				<p class="project-details">At Stunt Double Creative, if you can think it up, we can make it work. Let us make your screen-based dreams a reality with everything from custom websites to app designs and social media skins.</p>
+				<p class="project-details">Turn your screen-dreams into reality. We offer a range of custom websites, social media skins and more.</p>
 
 			</div><!--text-->
 
@@ -580,7 +580,7 @@
 
 				<p class="project-title">Illustration</p>
 
-				<p class="project-details">Custom infographics, icons, and more</p>
+				<p class="project-details">Let us set you apart from the rest with custom-made infographics and illustrations.</p>
 
 			</div><!--text-->
 
