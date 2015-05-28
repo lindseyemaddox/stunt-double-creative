@@ -25,8 +25,12 @@ header {
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 			div#logo {
 				background: url(/_assets/img/logo-snipe.png) no-repeat center 10px transparent;
+				height: 57px;
+				top: 20px;
+				left: 2%;
 				img {
 					opacity: 0;
+					height: 57px;
 					.transition;
 				}
 			}
@@ -69,6 +73,9 @@ header {
 					background: @red none repeat scroll 0 0;
 					.transition;
 				}
+			}
+			a#showMenu {
+				display: none;
 			}
 		}
 	}

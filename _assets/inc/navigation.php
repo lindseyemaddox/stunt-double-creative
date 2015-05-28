@@ -18,8 +18,9 @@
 				<li><a href="#services" id="services-link">Services</a></li>
                 <li><a href="#clients" id="clients-link">Clients</a></li>
 				<li><a href="#contact" id="contact-link">Contact</a></li>
+				<a href="#" id="showMenu"><img src="/_assets/img/menu.png"></a>
 			</ul>
-	
+
 		</nav>
 	
 	</header>

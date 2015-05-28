@@ -5,6 +5,7 @@
 // set initial variables
 var $showMenu,
 	$header,
+	$mainNav,
 	$content;
 
 $(function() {
@@ -15,33 +16,19 @@ function firstLoad() {
 	initVars();
 	showMenu();
 	stickyNav();
-	checkScreenSize();
 	initPlaceholders();
 }
 
 // function to set dom vars, etc that will not change
 function initVars() {
-	$nav 	= $('header.main nav.main-nav ul');
-	$showMenu 	= $('a#showMenu');
-}
-
-$(window).resize(function() {
-	checkScreenSize();
-});
-
-// checks to see if screen size requires mobile menu
-function checkScreenSize(){
-	if ($(window).width() < 950) {
-		$nav.removeClass('expand');
-	} else {
-		$nav.removeClass('expand');
-	}
+	$mainNav 	= $('nav');
+	$showMenu 	= $('a#showMenu, nav li a');
 }
 
 // show hide left menu
 function showMenu(){
 	$showMenu.click(function(){
-		if ($nav.hasClass('expand')) {
+		if ($mainNav.hasClass('expand')) {
 			menuOut();
 		} else {
 			menuIn();
@@ -50,11 +37,11 @@ function showMenu(){
 	});
 }
 function menuOut() {
-	$nav.removeClass('expand');
+	$mainNav.removeClass('expand');
 	//$content.unbind('click',menuOut);
 }
 function menuIn() {
-	$nav.addClass('expand');
+	$mainNav.addClass('expand');
 	//$content.bind('click',menuOut);
 }
 
