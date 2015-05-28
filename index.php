@@ -87,6 +87,26 @@
 		
 			</li>
 		
+			<li>
+
+				<div class="inner">
+					
+					<div class="text">
+		
+						<p class="headline">Loud &amp; Clear.</p>
+			
+						<p class="tag">Nashville-based nonprofit, We're Hear For You is ready to shout their message from the rooftops after a branding tune-up with us.</p>
+		
+						<div class="btnBox"><a class="btn alt fancybox" href="#hear">Check it out</a></div>
+
+					</div><!--text-->
+		
+				</div><!--inner-->
+
+			    <img src="/_assets/img/slider-hear.jpg" alt="We're Hear for You branding" title="We're Hear for You branding" />
+		
+			</li>
+		
 		</ul>
 
 	</div><!--flexslider-->
