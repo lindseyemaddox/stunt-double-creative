@@ -919,6 +919,7 @@
 		<article class="left">
 
 		    <?php
+			    require_once('/_assets/inc/mail-handler.php');
 		        $name = $_REQUEST['name'] ;
 		        $email = $_REQUEST['email'] ;
 		        $subject = $_REQUEST['subject'] ;
@@ -937,7 +938,7 @@
 		          $message .= '</body></html>';
 		          $subject = 'form submission';
 
-		    mail($to, $subject, $message, $headers);
+		    sendEmail($to, $subject, $message);
 		    echo "<div style='padding: 50px 20px 80px; color: #993c36; text-align: center;font-family:proxima-nova, sans-serif;'><label>Thank you for contacting us, someone will be in touch with you shortly.</label></div>";
 		  }
 		else
