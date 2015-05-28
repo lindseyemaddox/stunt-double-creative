@@ -686,11 +686,11 @@
 
 			<div class="logo">
 
-				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+				<span class="icon-hour"></span>
 			
 			</div><!--logo-->
 
-			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+			<img class="background" src="/_assets/img/LogoBG-01.jpg" alt="vintage racing background" title="vintage racing background">
 
 		</article><!--client-->
 
@@ -700,11 +700,11 @@
 
 			<div class="logo">
 
-				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+				<span class="icon-att"></span>
 			
 			</div><!--logo-->
 
-			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+			<img class="background" src="/_assets/img/LogoBG-02.jpg" alt="vintage racing background" title="vintage racing background">
 
 		</article><!--client-->
 
@@ -714,11 +714,11 @@
 
 			<div class="logo">
 
-				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+				<span class="icon-bh"></span>
 			
 			</div><!--logo-->
 
-			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+			<img class="background" src="/_assets/img/LogoBG-03.jpg" alt="vintage racing background" title="vintage racing background">
 
 		</article><!--client-->
 
@@ -728,11 +728,11 @@
 
 			<div class="logo">
 
-				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+				<span class="icon-cole"></span>
 			
 			</div><!--logo-->
 
-			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+			<img class="background" src="/_assets/img/LogoBG-04.jpg" alt="vintage racing background" title="vintage racing background">
 
 		</article><!--client-->
 
@@ -742,11 +742,165 @@
 
 			<div class="logo">
 
-				<img class="lindsey-maddox" src="/_assets/img/client-lindsey-maddox.png" alt="Lindsey Maddox makes websites." title="Lindsey Maddox makes websites.">
+				<span class="icon-cs"></span>
 			
 			</div><!--logo-->
 
-			<img class="background" src="/_assets/img/client-lindsey-maddox.jpg" alt="Lindsey Maddox web development" title="Lindsey Maddox web development">
+			<img class="background" src="/_assets/img/LogoBG-05.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-dot"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-06.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-hs"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-07.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-bk"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-08.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-love"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-09.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-madd"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-10.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-mobaglo"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-11.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-nokia"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-12.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-samsung"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-13.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-sony"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-14.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-weroc"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-15.jpg" alt="vintage racing background" title="vintage racing background">
+
+		</article><!--client-->
+
+		<article class="client">
+
+			<div class="overlay"></div><!--overlay-->
+
+			<div class="logo">
+
+				<span class="icon-whfy"></span>
+			
+			</div><!--logo-->
+
+			<img class="background" src="/_assets/img/LogoBG-16.jpg" alt="vintage racing background" title="vintage racing background">
 
 		</article><!--client-->
 

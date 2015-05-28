@@ -26,17 +26,23 @@ section#clients {
 		}
 		div.logo {
 			position: absolute;
-			top: -100%;
+			top: 40%;
 			width: 100%;
-			font-size: 1em;
 			text-align: center;
 			.transition(all, 1000ms, ease);
-			img {
-				width: 30%;
-				margin: 0 35%;
-				&.lindsey-maddox {
-					width: 20%;
-					margin: 0 45%;
+			span {
+				color: #fff;
+				font-size: 3em;
+				opacity: .5;
+				&.icon-cole, &.icon-nokia {
+					font-size: 1.5em;
+					padding-top: 40%;
+				}
+				&.icon-sony {
+					font-size: .8em;
+				}
+				&.icon-hs {
+					font-size: 2em;
 				}
 			}
 		}
@@ -45,9 +51,8 @@ section#clients {
 				opacity: .8;
 			}
 			div.logo {
-				top: 35%;
-				img.lindsey-maddox {
-					margin-top: -20%;
+				span {
+					opacity: 1;
 				}
 			}
 			img.background {
