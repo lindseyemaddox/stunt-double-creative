@@ -13,9 +13,9 @@
 					
 					<div class="text">
 		
-						<p class="headline">Red with Envy</p>
+						<p class="headline">Red with Envy.</p>
 			
-						<p class="tag">Hunter Hayes’ first european release drops in the UK on april 25th. Check out his new look.</p>
+						<p class="tag">Hunter Hayes' European debut album looks as good as it sounds. Check out the new aesthetic for Country Music's fresh-faced guitar hero.</p>
 		
 						<div class="btnBox"><a class="btn alt fancybox" href="#hayescd">Check it out</a></div>
 
@@ -24,6 +24,66 @@
 				</div><!--inner-->
 
 			    <img src="/_assets/img/slider-hayes.jpg" alt="Hunter Hayes cd packaging design" title="Hunter Hayes, I Want Crazy album design" />
+		
+			</li>
+		
+			<li>
+
+				<div class="inner">
+					
+					<div class="text">
+		
+						<p class="headline">Anybody Can Jump A Motorcycle.</p>
+			
+						<p class="tag">The trouble begins when you try to land it. Learn how we can help you and your business land safely with custom design solutions.</p>
+		
+						<div class="btnBox"><a class="btn alt" href="#services" id="slider-services-link">Check it out</a></div>
+
+					</div><!--text-->
+		
+				</div><!--inner-->
+
+			    <img src="/_assets/img/slider-motorcycle.jpg" alt="Anybody can jump a motorcycle." title="Anybody can jump a motorcycle." />
+		
+			</li>
+		
+			<li>
+
+				<div class="inner">
+					
+					<div class="text">
+		
+						<p class="headline">Holla.</p>
+			
+						<p class="tag">Sinclair and her team holla’d at us to help her develop a look for the pop newcomer. Check out her new branding and “Sweet Talk” EP Package.</p>
+		
+						<div class="btnBox"><a class="btn alt fancybox" href="#sinclair">Check it out</a></div>
+
+					</div><!--text-->
+		
+				</div><!--inner-->
+
+			    <img src="/_assets/img/slider-sinclair.jpg" alt="Sinclair" title="Sinclair" />
+		
+			</li>
+		
+			<li>
+
+				<div class="inner">
+					
+					<div class="text">
+		
+						<p class="headline">Leave it to us.</p>
+			
+						<p class="tag">Even Brad Pitt has a stunt double. Find out what we can do for you.</p>
+		
+						<div class="btnBox"><a class="btn alt" href="#services" id="slider-services-link2">Check it out</a></div>
+
+					</div><!--text-->
+		
+				</div><!--inner-->
+
+			    <img src="/_assets/img/slider-woman.jpg" alt="Woman on motorcycle" title="Woman on motorcycle" />
 		
 			</li>
 		
@@ -741,10 +801,40 @@
 
 	$(document).ready(function() {
 
-		$('.fancybox').fancybox();
+    var $el, leftPos,
+            $tabsNav = $("#main");
+        if ($tabsNav.length > 0) {
+            var width = $('#main').width();
+            $tabsNav.css('width', width + 'px');
 
-	});
+            if(!tabSelected) {
+                var tabSelected = $('#main li:first-child');
+                tabSelected.addClass('selected');
+            }
+            if($('#main li#line').length == 0) {
+                $tabsNav.append("<li id='line'></li>");
+            }
 
+            $("#main #line").css({
+                left: tabSelected.position().left,
+                width: tabSelected.width()
+            }).data("origLeft", $("#line").position().left);
+
+            $("ul#main li").hover(function () {
+                $el = $(this);
+                width = $el.width();
+                $("ul#main li#line").css("width", width);
+                leftPos = $el.position().left;
+                $("ul#main li#line").css("left", leftPos);
+
+            }, function () {
+                $("ul#main li#line").css({
+                    left: $(".selected").position().left,
+                    width: $(".selected").width()
+                });
+            });
+
+        }
 
     $(function(){
 
@@ -785,6 +875,14 @@
         return false;
       });
   	});
+
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+	  });
+	  $('.fancybox').fancybox();
+	  });
+
+	});
 
 
 </script>

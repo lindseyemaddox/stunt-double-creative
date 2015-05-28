@@ -522,7 +522,8 @@ p.headline {
   font-style: normal;
   font-weight: 900;
   font-size: 6.52em;
-  line-height: 1.5384615384615385em;
+  line-height: .9em;
+  padding-bottom: 30px;
   color: #fff;
   text-align: center;
   letter-spacing: 5px;
@@ -965,7 +966,7 @@ html[xmlns] .slides {
 /* FlexSlider Default Theme
 *********************************/
 .flexslider {
-  margin: 0 0 60px;
+  margin: 0 0 0px;
   zoom: 1;
 }
 .flex-viewport {
@@ -988,7 +989,7 @@ section#slider div.inner {
 }
 section#slider div.text {
   position: absolute;
-  top: 264px;
+  top: 194px;
 }
 section#slider div.text div.btnBox {
   margin-top: 74px;
@@ -1013,10 +1014,10 @@ section#slider div.text div.btnBox {
 }
 .flex-direction-nav .flex-next {
   background-position: 100% 0;
-  right: -36px;
+  right: 0px;
 }
 .flex-direction-nav .flex-prev {
-  left: -36px;
+  left: 0px;
 }
 .flexslider:hover .flex-next {
   opacity: 0.8;
