@@ -535,7 +535,7 @@ h3 {
   text-align: center;
   letter-spacing: .1px;
   text-transform: uppercase;
-  margin-top: 133px;
+  padding-top: 133px;
 }
 h4 {
   font-family: 'proxima-nova', sans-serif;
@@ -1163,6 +1163,7 @@ header nav {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 10;
 }
 header nav.fixed {
   background-color: #fff;
@@ -1204,6 +1205,9 @@ header nav.fixed div#logo img {
 header nav.fixed li a#top-link {
   display: inline-block;
 }
+header nav.fixed.show {
+  opacity: 1;
+}
 header nav div#logo {
   position: absolute;
   left: 0;
@@ -1239,13 +1243,22 @@ header nav ul li#line {
   position: absolute;
   height: 3px;
   bottom: -5px;
-  margin: 0 0 0 .9%;
-  background: #993c36 none repeat scroll 0 0;
+  left: 0;
+  padding: 0;
+  margin: 0;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
+}
+header nav ul li#line::before {
+  content: "";
+  width: calc(100% + 14px);
+  height: 3px;
+  background: #993c36 none repeat scroll 0 0;
+  left: 0;
+  position: absolute;
 }
 header nav ul a#showMenu {
   display: none;

@@ -79,34 +79,19 @@ function placeholderSupported() {
 }
 
 function stickyNav() {
-    $(window).resize(function(){
-        if ($(window).width() > 960) {
-            $('nav').scrollspy({
-                min: $('nav').offset().top+741,
-                max: $('footer').offset().top,
-                container: window,
-                onEnter: function() {
-                    $("nav").addClass('fixed');
-                    $('#main').append('<li><a href="#top" id="top-link">Top</a></li>');
-                },
-                onLeave: function() {
-                    $("nav").removeClass('fixed');
-                }
-            });
-        }
-    });
-    if ($(window).width() > 960) {
+
         $('nav').scrollspy({
-            min: $('nav').offset().top+741,
+            min: $('#about').offset().top,
             max: $('footer').offset().top,
             container: window,
             onEnter: function() {
                 $("nav").addClass('fixed');
+                // setTimeout(function(){$('.fixed').addClass('show');},1000);
             },
             onLeave: function() {
                 $("nav").removeClass('fixed');
+                // $("nav").removeClass('show');
             }
         });
-    }
 }
 

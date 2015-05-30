@@ -9,6 +9,9 @@ header {
 		top: 0;
 		left: 0;
 		right: 0;
+		z-index: 10;
+		// transition: opacity 1s ease;
+		// opacity: 0;
 		&.fixed {
 			background-color: #fff;
 			position: fixed;
@@ -16,6 +19,8 @@ header {
 			top: 0;
 			height: 100px;
 			z-index: 3;
+
+
 			background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
 			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
 			background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
@@ -36,6 +41,9 @@ header {
 			}
 			li a#top-link {
 				display: inline-block;
+			}
+			&.show{
+				opacity: 1;
 			}
 		}
 		div#logo {
@@ -65,13 +73,31 @@ header {
 				a#about-link {
 					padding-left: 0;
 				}
+				// &#line {
+				// 	position: absolute;
+				// 	height: 3px;
+				// 	bottom: -5px;
+				// 	margin: 0 0 0 .9%;
+				// 	background: @red none repeat scroll 0 0;
+				// 	.transition;
+				// }
 				&#line {
 					position: absolute;
+					// width: 113px;
 					height: 3px;
 					bottom: -5px;
-					margin: 0 0 0 .9%;
-					background: @red none repeat scroll 0 0;
+					left: 0;
+					padding: 0;
+					margin:0;
 					.transition;
+				}
+				&#line::before {
+					content: "";
+					width: calc(~'100% + 14px');
+					height: 3px;
+					background: @red none repeat scroll 0 0;
+					left: 0;
+					position: absolute;
 				}
 			}
 			a#showMenu {

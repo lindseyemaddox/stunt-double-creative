@@ -919,7 +919,7 @@
 		<article class="left">
 
 		    <?php
-			    require_once('/_assets/inc/mail-handler.php');
+			    require_once('_assets/inc/mail-handler.php');
 		        $name = $_REQUEST['name'] ;
 		        $email = $_REQUEST['email'] ;
 		        $subject = $_REQUEST['subject'] ;
@@ -976,7 +976,7 @@
 
 	$(document).ready(function() {
 
-    var $el, leftPos,
+    var $el, leftPos,tabSelected;
             $tabsNav = $("#main");
         if ($tabsNav.length > 0) {
             var width = $('#main').width();
@@ -994,7 +994,7 @@
                 left: tabSelected.position().left,
                 width: tabSelected.width()
             }).data("origLeft", $("#line").position().left);
-
+       
             $("ul#main li").hover(function () {
                 $el = $(this);
                 width = $el.width();
@@ -1054,6 +1054,7 @@
 	$(window).load(function() {
 	  $('.flexslider').flexslider({
 	  });
+	  
 	  $('.fancybox').fancybox();
 	  });
 
