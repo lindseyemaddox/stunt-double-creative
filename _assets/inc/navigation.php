@@ -7,7 +7,7 @@
 
 			<div id="logo">
 	
-				<img src="/_assets/img/logo-horizontal.png" alt="Stunt Double Creative logo" title="Stunt Double Creative logo">
+				<a href="#top" id="top-link"><img src="/_assets/img/logo-horizontal.png" alt="Stunt Double Creative logo" title="Stunt Double Creative logo"></a>
 
 			</div><!--logo-->
 

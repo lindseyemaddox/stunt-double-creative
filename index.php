@@ -31,7 +31,7 @@
 
 				<div class="inner">
 					
-					<div class="text">
+					<div class="text two-lines">
 		
 						<p class="headline">Anybody Can Jump A Motorcycle.</p>
 			
