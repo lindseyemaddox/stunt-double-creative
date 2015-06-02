@@ -1270,7 +1270,7 @@ header nav ul a#showMenu {
 /******** START ABOUT SECTION STYLES *********/
 section#about div.left {
   width: 39%;
-  vertical-align: middle;
+  vertical-align: top;
 }
 section#about div.right {
   width: 54%;
@@ -1386,6 +1386,7 @@ section#team div > div h4:after {
 }
 section#team div.right {
   margin-left: 1%;
+  vertical-align: top;
 }
 section#team p {
   margin: 0 -16%;
@@ -1715,6 +1716,11 @@ footer p {
 /*================  RESPONSIVE STYLES  ================*/
 /*====================================================*/
 /*Contains ALL responsive code. Must be imported last so that it is the last css read.*/
+@media screen and (max-width: 1400px) {
+  section#portfolio a.portfolio-item {
+    height: 250px;
+  }
+}
 @media screen and (max-width: 1300px) {
   html {
     font-size: 15.5px;
@@ -1724,6 +1730,9 @@ footer p {
   }
   section#slider div.text.two-lines {
     top: 154px;
+  }
+  section#portfolio a.portfolio-item {
+    height: 225px;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -1735,6 +1744,12 @@ footer p {
   }
   section#slider div.text.two-lines {
     top: 124px;
+  }
+  h1 {
+    padding-bottom: 10px;
+  }
+  section#portfolio a.portfolio-item {
+    height: 205px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -1824,6 +1839,9 @@ footer p {
   section#slider div.text div.btnBox {
     margin-top: 44px;
   }
+  section#portfolio a.portfolio-item {
+    height: 190px;
+  }
 }
 @media screen and (max-width: 1000px) {
   html {
@@ -1831,6 +1849,9 @@ footer p {
   }
   .flex-direction-nav a {
     top: 40%;
+  }
+  section#portfolio a.portfolio-item {
+    height: 170px;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1845,6 +1866,27 @@ footer p {
   }
   .flex-direction-nav a {
     top: 35%;
+  }
+  section#about div.right {
+    width: 100%;
+    margin: 30px 0 0 0;
+    display: block;
+  }
+  section#about div.left {
+    width: 100%;
+    display: block;
+  }
+  h3 {
+    padding-top: 90px;
+  }
+  section#portfolio a.portfolio-item {
+    height: 150px;
+  }
+  .btnBox .btn {
+    letter-spacing: 2px;
+  }
+  section#portfolio a.portfolio-item div.text {
+    padding-top: 25%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -1863,6 +1905,12 @@ footer p {
   p.tag {
     letter-spacing: 4px;
   }
+  section#portfolio a.portfolio-item {
+    height: 130px;
+  }
+  .btnBox .btn {
+    font-size: 1em;
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -1878,6 +1926,19 @@ footer p {
   header nav ul a#showMenu {
     width: 40px;
   }
+  .btnBox .btn {
+    letter-spacing: 0;
+  }
+  section#portfolio a.portfolio-item {
+    width: 49%;
+    height: 230px;
+  }
+  section#portfolio a.portfolio-item div.text {
+    padding-top: 30%;
+  }
+  section#portfolio a.portfolio-item p {
+    font-size: 1.5em;
+  }
 }
 @media screen and (max-width: 600px) {
   html {
@@ -1892,15 +1953,96 @@ footer p {
   header nav div#logo {
     background: url(/_assets/img/logo-nobg.png) no-repeat center center transparent;
     width: 100%;
-    height: 270px;
+    height: 330px;
+  }
+  header nav.fixed div#logo {
+    width: 57px;
+    height: inherit;
   }
   header nav ul {
     z-index: 1;
   }
-  section#slider {
-    height: 330px;
+  .flexslider .slides li {
+    overflow: hidden;
   }
   .flexslider .slides img {
-    background-size: contain;
+    width: 130%;
+    margin: 0 -15%;
+  }
+  h3 {
+    padding-top: 70px;
+  }
+  h4 {
+    padding-top: 25px;
+  }
+  h4:after {
+    margin: 28px auto 34px;
+  }
+  .btnBox .btn {
+    letter-spacing: 2px;
+  }
+  section#portfolio ul#filters li {
+    margin: 0 7px 10px;
+  }
+  section#portfolio div#options {
+    margin-bottom: 20px;
+  }
+  section#portfolio a.portfolio-item {
+    height: 190px;
+  }
+  section#team div > div img {
+    width: 40%;
+    float: left;
+    margin-right: 3%;
+  }
+  section#team div > div {
+    width: 100%;
+    padding: 0 0 30px;
+  }
+  section#team p {
+    margin: 0;
+  }
+  section#team h5 {
+    margin-top: 0;
+  }
+  section#team div.right {
+    margin-left: 0;
+  }
+  section#team div > div h4 {
+    margin-bottom: 10px;
+  }
+  section#team div > div h4:after {
+    display: none;
+  }
+}
+@media screen and (max-width: 500px) {
+  .flexslider .slides img {
+    width: 160%;
+    margin: 0 -30%;
+  }
+  section#portfolio a.portfolio-item {
+    height: 150px;
+  }
+  section#portfolio a.portfolio-item p {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .flexslider .slides img {
+    width: 200%;
+    margin: 0 -50%;
+  }
+  section#portfolio a.portfolio-item {
+    height: 115px;
+  }
+  section#portfolio a.portfolio-item div.text {
+    padding-top: 20%;
+  }
+  section#portfolio a.portfolio-item p.project-title:after {
+    margin: 6px auto;
+  }
+  section#team div > div img {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
