@@ -11,7 +11,7 @@
 		        $phone = $_REQUEST['phone'] ;
 		        $desc = $_REQUEST['desc'] ;
 		        if (isset($_POST['submit'])) {
-		          $to = 'lindseyemaddox@gmail.com';
+		          $to = 'alison@stuntdoublecreative.com';
 		          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
 		          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
 		          $headers .= "MIME-Version: 1.0\r\n";

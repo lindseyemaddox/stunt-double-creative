@@ -21,7 +21,7 @@ function sendEmail($to, $subject, $body, $file = false) {
 	$port = "465";
 
 	$username = "no-reply@stuntdoublecreative.com";
-	$password = "G4r6N3RSK0oL";
+	$password = "changeme";
 
 	$headers = array ('From' => $username,
 	'To' => $to,
