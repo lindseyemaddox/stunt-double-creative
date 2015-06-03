@@ -6,14 +6,19 @@ footer {
 	background-attachment: fixed;
 	background-position: center bottom;
 	margin-top: 112px;
-	height: 320px;
+	position: relative;
+	.inner {
+		position: relative;
+	}
 	.socials {
 		padding: 140px 0 128px;
-		float: left;
+		position: absolute;
+		top: 0;
+		left: 0;
 		a {
 			font-size: 3em;
 			color: #000;
-			margin-right: 20px;
+			margin-right: 10px;
 			.transition;
 			&:hover {
 				color: #fff;
@@ -21,20 +26,21 @@ footer {
 		}
 	}
 	span.icon-logo {
-		float: left;
 		font-size: 14.25em;
 		color: #fff;
-		margin: 50px 0 0 100px;
-		width: 520px;
+		padding-top: 50px;
+		text-align: center;
+		display: block;
 	}
 	p {
 		.proxima-nova-bold;
-		padding: 140px 0 128px;
+		padding: 140px 0 0;
 		font-size: .8em;
 		color: #000;
 		text-align: right;
-		float: right;
-		width: 200px;
+		position: absolute;
+		right: 0;
+		top: 0;
 	}
 }
 

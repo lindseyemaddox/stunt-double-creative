@@ -916,6 +916,19 @@
 
 		<h4>We’d love to hear from you.</h4>
 	
+		<article class="right">
+
+			<h4>Let’s Talk.</h4>
+
+			<p>We would love to hear from you. Feel free to give us a shout any time to talk shop, say hello, or to get our kale salad recipe (it’s spectacular). </p>
+
+			<h4>Give us a ring.</h4>
+
+			<p><span><a href="tel:6152432779">(615) 243-2779</a></span>
+			<span><a href="tel:6155131424">(615) 513-1424</a></span></p>
+
+		</article><!--right-->
+
 		<article class="left">
 
 		    <?php
@@ -955,18 +968,7 @@
 
 		</article><!--left-->
 
-		<article class="right">
-
-			<h4>Let’s Talk.</h4>
-
-			<p>We would love to hear from you. Feel free to give us a shout any time to talk shop, say hello, or to get our kale salad recipe (it’s spectacular). </p>
-
-			<h4>Give us a ring.</h4>
-
-			<p><span><a href="tel:6152432779">(615) 243-2779</a></span>
-			<span><a href="tel:6155131424">(615) 513-1424</a></span></p>
-
-		</article><!--right-->
+		<div class="clear"></div>
 
 	</div><!--inner-->
 

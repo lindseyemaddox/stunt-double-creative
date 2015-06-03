@@ -3,6 +3,8 @@
 
 	<div class="inner">
 
+		<span class="icon-logo"></span>
+
 		<div class="socials">
 		
 			<a href="https://www.facebook.com/stuntdoublecreative" target="_blank" rel="nofollow" class="icon-facebook"></a>
@@ -11,8 +13,6 @@
 			<a href="https://www.etsy.com/shop/StuntDoubleCreative" target="_blank" rel="nofollow" class="icon-etsy"></a>
 
 		</div><!--socials-->
-
-		<span class="icon-logo"></span>
 
 		<p>&copy;<?php echo date("Y"); ?> Stunt Double Creative, LLC<br/>All Rights Reserved.</p>
 

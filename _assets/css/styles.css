@@ -1488,7 +1488,7 @@ section#services article:hover span {
 /******** START CLIENTS SECTION STYLES *********/
 section#clients article.client {
   width: 19%;
-  height: 230px;
+  height: 210px;
   display: inline-block;
   margin: 0 .1% 1px;
   position: relative;
@@ -1560,7 +1560,7 @@ section#clients article.client:hover img.background {
 /******** END CLIENTS SECTION STYLES *********/
 /******** START CONTACT SECTION STYLES *********/
 section#contact article.left {
-  display: inline-block;
+  float: left;
   vertical-align: top;
   width: 60%;
 }
@@ -1609,7 +1609,7 @@ section#contact article.left button.submit:hover {
   color: #fff;
 }
 section#contact article.right {
-  display: inline-block;
+  float: right;
   vertical-align: top;
   width: 29%;
   margin-left: 10%;
@@ -1670,16 +1670,21 @@ footer {
   background-attachment: fixed;
   background-position: center bottom;
   margin-top: 112px;
-  height: 320px;
+  position: relative;
+}
+footer .inner {
+  position: relative;
 }
 footer .socials {
   padding: 140px 0 128px;
-  float: left;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 footer .socials a {
   font-size: 3em;
   color: #000;
-  margin-right: 20px;
+  margin-right: 10px;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -o-transition: all 400ms ease;
@@ -1690,22 +1695,23 @@ footer .socials a:hover {
   color: #fff;
 }
 footer span.icon-logo {
-  float: left;
   font-size: 14.25em;
   color: #fff;
-  margin: 50px 0 0 100px;
-  width: 520px;
+  padding-top: 50px;
+  text-align: center;
+  display: block;
 }
 footer p {
   font-family: 'proxima-nova', sans-serif;
   font-style: normal;
   font-weight: 700;
-  padding: 140px 0 128px;
+  padding: 140px 0 0;
   font-size: .8em;
   color: #000;
   text-align: right;
-  float: right;
-  width: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 /******** END FOOTER STYLES *********/
 /*================================================*/
@@ -1719,6 +1725,12 @@ footer p {
 @media screen and (max-width: 1400px) {
   section#portfolio a.portfolio-item {
     height: 250px;
+  }
+  section#clients article.client {
+    height: 195px;
+  }
+  footer .socials a {
+    font-size: 2em;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -1743,6 +1755,9 @@ footer p {
   section#services article div.text {
     padding-top: 15%;
   }
+  section#clients article.client {
+    height: 180px;
+  }
 }
 @media screen and (max-width: 1200px) {
   html {
@@ -1759,6 +1774,9 @@ footer p {
   }
   section#portfolio a.portfolio-item {
     height: 205px;
+  }
+  section#clients article.client {
+    height: 165px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -1854,6 +1872,30 @@ footer p {
   section#services article p.project-title:after {
     margin: 6px auto;
   }
+  section#clients article.client {
+    height: 150px;
+  }
+  section#clients article.client div.logo span.icon-cole,
+  section#clients article.client div.logo span.icon-nokia {
+    font-size: 1.3em;
+  }
+  section#clients article.client div.logo span.icon-sony {
+    font-size: .6em;
+  }
+  footer .socials,
+  footer p {
+    position: inherit;
+    text-align: center;
+  }
+  footer .socials {
+    padding: 70px 0 0;
+  }
+  footer p {
+    padding: 20px 0;
+  }
+  footer .socials a:last-child {
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 1000px) {
   html {
@@ -1864,6 +1906,12 @@ footer p {
   }
   section#portfolio a.portfolio-item {
     height: 170px;
+  }
+  section#clients article.client {
+    height: 135px;
+  }
+  section#clients article.client div.logo span {
+    font-size: 2.7em;
   }
 }
 @media screen and (max-width: 900px) {
@@ -1903,6 +1951,16 @@ footer p {
   section#services article div.text {
     padding-top: 10%;
   }
+  section#clients article.client {
+    height: 120px;
+  }
+  section#clients article.client div.logo span.icon-cole,
+  section#clients article.client div.logo span.icon-nokia {
+    font-size: 1em;
+  }
+  section#clients article.client div.logo span.icon-hs {
+    font-size: 1.5em;
+  }
 }
 @media screen and (max-width: 800px) {
   html {
@@ -1925,6 +1983,10 @@ footer p {
   }
   .btnBox .btn {
     font-size: 1em;
+  }
+  section#clients article.client {
+    width: 32.7%;
+    height: 180px;
   }
 }
 @media screen and (max-width: 700px) {
@@ -1960,6 +2022,18 @@ footer p {
   }
   section#services article div.text {
     padding-top: 25%;
+  }
+  section#clients article.client {
+    height: 155px;
+  }
+  section#contact article.right,
+  section#contact article.left {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+  section#contact article.right {
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -2036,6 +2110,10 @@ footer p {
   section#team div > div h4:after {
     display: none;
   }
+  section#clients article.client {
+    width: 32.6%;
+    height: 130px;
+  }
 }
 @media screen and (max-width: 500px) {
   .flexslider .slides img {
@@ -2050,6 +2128,13 @@ footer p {
   }
   section#services article {
     width: 48%;
+  }
+  section#clients article.client {
+    width: 32.4%;
+    height: 105px;
+  }
+  footer span.icon-logo {
+    font-size: 9em;
   }
 }
 @media screen and (max-width: 400px) {
@@ -2073,5 +2158,22 @@ footer p {
   section#services article {
     width: 100%;
     margin: 0 auto 5px;
+  }
+  section#clients article.client {
+    width: 32.2%;
+    height: 75px;
+  }
+  section#clients article.client div.logo span {
+    font-size: 2em;
+  }
+  section#clients article.client div.logo span.icon-hs {
+    font-size: 1em;
+  }
+  section#clients article.client div.logo span.icon-cole,
+  section#clients article.client div.logo span.icon-nokia {
+    font-size: .8em;
+  }
+  section#clients article.client div.logo span.icon-sony {
+    font-size: .4em;
   }
 }
