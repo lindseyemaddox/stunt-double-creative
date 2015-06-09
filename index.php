@@ -111,6 +111,8 @@
 
 	</div><!--flexslider-->
 
+						<a class="scroll" href="#about" id="slider-about-link">Scroll Down</a>
+
 </section><!--slider-->
 
 <section id="about">
@@ -678,7 +680,7 @@
 
 		<h3>Clients.</h3>
 
-		<h4>A selcection of some of our most favorite folks.</h4>
+		<h4>A selection of some of our most favorite folks.</h4>
 	
 		<article class="client">
 

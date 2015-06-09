@@ -308,7 +308,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_assets\/css\/less\/organisms\/slider.less",
 		"outputAbbreviatedPath": "\/_assets\/css\/less\/css\/slider.css",
@@ -431,6 +431,17 @@
 		"initialSize": 1722,
 		"inputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
 		"outputAbbreviatedPath": "\/_assets\/img\/apple-touch-57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_assets\/img\/arrow-down.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1241,
+		"inputAbbreviatedPath": "\/_assets\/img\/arrow-down.png",
+		"outputAbbreviatedPath": "\/_assets\/img\/arrow-down.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

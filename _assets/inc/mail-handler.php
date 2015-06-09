@@ -20,8 +20,8 @@ function sendEmail($to, $subject, $body, $file = false) {
 	$host = "ssl://smtpout.secureserver.net";
 	$port = "465";
 
-	$username = "no-reply@stuntdoublecreative.com";
-	$password = "changeme";
+	$username = "alison@stuntdoublecreative.com";
+	$password = "K@leSalad8880";
 
 	$headers = array ('From' => $username,
 	'To' => $to,

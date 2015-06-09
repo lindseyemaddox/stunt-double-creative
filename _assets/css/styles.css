@@ -718,6 +718,7 @@ p.tag {
 }
 .fancybox-opened {
   z-index: 8030;
+  max-width: 1210px;
 }
 .fancybox-opened .fancybox-skin {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
@@ -730,6 +731,7 @@ p.tag {
 }
 .fancybox-inner {
   overflow: hidden;
+  max-width: 1180px;
 }
 .fancybox-type-iframe .fancybox-inner {
   -webkit-overflow-scrolling: touch;
@@ -1154,6 +1156,35 @@ section#slider div.text div.btnBox {
     right: 0;
   }
 }
+/******** START SLIDER SECTION STYLES *********/
+section#slider {
+  position: relative;
+}
+section#slider a.scroll {
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 0.75em;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  margin-left: -70px;
+}
+section#slider a.scroll:after {
+  background: url(/_assets/img/arrow-down.png) no-repeat center center transparent;
+  width: 20px;
+  height: 20px;
+  content: "";
+  display: block;
+  margin: 5px 0 0 45%;
+}
+/******** END SLIDER SECTION STYLES *********/
 /******** START MAIN HEADER AND NAVIGATION STYLES *********/
 header {
   position: relative;
@@ -1172,20 +1203,7 @@ header nav.fixed {
   top: 0;
   height: 100px;
   z-index: 3;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.65)), color-stop(100%, rgba(0, 0, 0, 0)));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a6000000', endColorstr='#00000000', GradientType=0);
-  /* IE6-9 */
+  background-color: #000;
 }
 header nav.fixed div#logo {
   background: url(/_assets/img/logo-snipe.png) no-repeat center 10px transparent;
@@ -1668,12 +1686,13 @@ footer {
   background-position: center bottom;
   margin-top: 112px;
   position: relative;
+  padding-bottom: 10px;
 }
 footer .inner {
   position: relative;
 }
 footer .socials {
-  padding: 140px 0 128px;
+  padding: 140px 0 0;
   position: absolute;
   top: 0;
   left: 0;
@@ -1697,6 +1716,7 @@ footer span.icon-logo {
   padding-top: 50px;
   text-align: center;
   display: block;
+  margin-bottom: 128px;
 }
 footer p {
   font-family: 'proxima-nova', sans-serif;
@@ -1734,6 +1754,9 @@ footer p {
   html {
     font-size: 15.5px;
   }
+  section#slider div.text div.btnBox {
+    margin-top: 34px;
+  }
   section#slider div.text {
     top: 204px;
   }
@@ -1759,6 +1782,9 @@ footer p {
 @media screen and (max-width: 1200px) {
   html {
     font-size: 15px;
+  }
+  section#slider div.text div.btnBox {
+    margin-top: 24px;
   }
   section#slider div.text {
     top: 174px;
@@ -1860,9 +1886,6 @@ footer p {
   p.tag {
     font-size: 1em;
   }
-  section#slider div.text div.btnBox {
-    margin-top: 44px;
-  }
   section#portfolio a.portfolio-item {
     height: 190px;
   }
@@ -1878,6 +1901,9 @@ footer p {
   }
   section#clients article.client div.logo span.icon-sony {
     font-size: .6em;
+  }
+  footer span.icon-logo {
+    margin-bottom: 0;
   }
   footer .socials,
   footer p {
@@ -1910,10 +1936,16 @@ footer p {
   section#clients article.client div.logo span {
     font-size: 2.7em;
   }
+  section#slider a.scroll {
+    margin-left: -64px;
+  }
 }
 @media screen and (max-width: 900px) {
   html {
     font-size: 13.5px;
+  }
+  section#slider a.scroll {
+    display: none;
   }
   p.headline {
     padding-bottom: 10px;
