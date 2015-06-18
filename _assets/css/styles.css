@@ -1201,14 +1201,14 @@ header nav.fixed {
   position: fixed;
   z-index: 9;
   top: 0;
-  height: 100px;
+  height: 70px;
   z-index: 3;
   background-color: #000;
 }
 header nav.fixed div#logo {
   background: url(/_assets/img/logo-snipe.png) no-repeat center 10px transparent;
   height: 57px;
-  top: 20px;
+  top: 0px;
   left: 2%;
 }
 header nav.fixed div#logo img {
@@ -1231,7 +1231,7 @@ header nav div#logo {
   left: 0;
 }
 header nav ul {
-  margin: 37px 5% 0 0;
+  margin: 20px 5% 0 0;
   width: 95%;
   position: absolute;
   right: 0;
@@ -1681,15 +1681,17 @@ section#contact article.right p span a:hover {
 /******** END CONTACT SECTION STYLES *********/
 /******** START MAIN FOOTER STYLES *********/
 footer {
-  background-image: url(/_assets/img/footer.jpg);
-  background-attachment: fixed;
-  background-position: center bottom;
   margin-top: 112px;
   position: relative;
-  padding-bottom: 10px;
+  max-height: 312px;
+}
+footer img {
+  width: 100%;
 }
 footer .inner {
-  position: relative;
+  position: absolute;
+  margin: 0 10%;
+  top: 0;
 }
 footer .socials {
   padding: 140px 0 0;
@@ -1711,12 +1713,12 @@ footer .socials a:hover {
   color: #fff;
 }
 footer span.icon-logo {
-  font-size: 14.25em;
+  font-size: 12em;
   color: #fff;
   padding-top: 50px;
   text-align: center;
   display: block;
-  margin-bottom: 128px;
+  margin-bottom: 18px;
 }
 footer p {
   font-family: 'proxima-nova', sans-serif;
@@ -1914,7 +1916,7 @@ footer p {
     padding: 70px 0 0;
   }
   footer p {
-    padding: 20px 0;
+    padding: 80px 0 0;
   }
   footer .socials a:last-child {
     margin-right: 0;
@@ -1938,6 +1940,9 @@ footer p {
   }
   section#slider a.scroll {
     margin-left: -64px;
+  }
+  footer span.icon-logo {
+    font-size: 9em;
   }
 }
 @media screen and (max-width: 900px) {
@@ -2017,6 +2022,9 @@ footer p {
     width: 32.7%;
     height: 180px;
   }
+  footer span.icon-logo {
+    font-size: 6em;
+  }
 }
 @media screen and (max-width: 700px) {
   html {
@@ -2063,6 +2071,22 @@ footer p {
   }
   section#contact article.right {
     margin-bottom: 20px;
+  }
+  footer img {
+    display: none;
+  }
+  footer {
+    background: url(/_assets/img/footer.jpg) repeat-y center top transparent;
+    width: 100%;
+    height: 400px;
+  }
+  footer .socials {
+    width: 100%;
+    padding-top: 160px;
+  }
+  footer p {
+    width: 100%;
+    padding-top: 230px;
   }
 }
 @media screen and (max-width: 600px) {
