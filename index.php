@@ -1,6 +1,6 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
-
+<?php error_reporting(-1);?>
 <section id="slider">
 
 	<div class="flexslider carousel">
@@ -934,30 +934,27 @@
 		<article class="left">
 
 		    <?php
-			    require_once('_assets/inc/mail-handler.php');
-		        $name = $_REQUEST['name'] ;
-		        $email = $_REQUEST['email'] ;
-		        $subject = $_REQUEST['subject'] ;
-		        $msg = $_REQUEST['msg'] ;
+		        $name = (isset($_REQUEST['name'])) ? $_REQUEST['name'] : false ;
+		        $email = (isset($_REQUEST['email'])) ? $_REQUEST['email'] : false ;
+		        $subject = (isset($_REQUEST['subject'])) ? $_REQUEST['subject'] : false ;
+		        $msg = (isset($_REQUEST['msg'])) ? $_REQUEST['msg'] : false ;
 		        if (isset($_POST['submit'])) {
 		          $to = 'alison@stuntdoublecreative.com';
 		          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
 		          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
 		          $headers .= "MIME-Version: 1.0\r\n";
 		          $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-		          $message = '<html><body>';
-		          $message .= 'Name: '.$name.'<br>';
-		          $message .= 'Email: '.$email.'<br>';
-		          $message .= 'Subject: '.$subject.'<br>';
-		          $message .= 'Message: '.$msg.'<br>';
-		          $message .= '</body></html>';
+		          $message = "Name: ".$name."\r\n";
+		          $message .= "Email: ".$email."\r\n";
+		          $message .= "Subject: ".$subject."\r\n";
+		          $message .= "Message: ".$msg."\r\n";
 		          $subject = 'form submission';
 
-		    sendEmail($to, $subject, $message);
+		    mail($to, $subject, $message);
 		    echo "<div style='padding: 50px 20px 80px; color: #993c36; text-align: center;font-family:proxima-nova, sans-serif;'><label>Thank you for contacting us, someone will be in touch with you shortly.</label></div>";
 		  }
 		else
-		  { echo "<form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
+		  { echo "<form method='post' action='".$_SERVER['SCRIPT_NAME']."#contact'>
 		        <input type='text' required name='name' id='name' size='10' placeholder='Name'>
 		        <input type='text' required name='email' id='email' size='10' placeholder='Email'>
 		        <input type='text' required name='subject' id='subject' size='10' placeholder='Subject'>
