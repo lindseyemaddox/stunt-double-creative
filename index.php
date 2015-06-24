@@ -974,13 +974,23 @@
 
 <script>
 
-	$(document).ready(function() {
+$(function(){
+	            $('#main > li > a').click(function(){
+	            	$('#main > li').removeClass('selected');
+			    $(this).closest('li').addClass('selected');
+			  });
 
-    var $el, leftPos,tabSelected;
+	        });
+
+	$(window).load(function() {
+
+    var $el, leftPos,tabSelected,
             $tabsNav = $("#main");
+
         if ($tabsNav.length > 0) {
             var width = $('#main').width();
             $tabsNav.css('width', width + 'px');
+
 
             if(!tabSelected) {
                 var tabSelected = $('#main li:first-child');
