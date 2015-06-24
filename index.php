@@ -1,6 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/head.php'); // HTTP head?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/navigation.php'); //navigation?>
-<?php error_reporting(-1);?>
 <section id="slider">
 
 	<div class="flexslider carousel">
