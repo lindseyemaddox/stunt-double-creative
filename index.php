@@ -1061,16 +1061,7 @@ $(function(){
       });
   	});
 
-	$(window).load(function() {
-	  $('.flexslider').flexslider({
-	  });
-	  
-	  $('.fancybox').fancybox();
-	  });
-
-	});
-
-
+});
 </script>
 
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/_assets/inc/footer.php'); // footer, close body and html?>
