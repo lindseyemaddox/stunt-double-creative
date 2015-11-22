@@ -1196,6 +1196,9 @@ header nav {
   right: 0;
   z-index: 10;
 }
+header nav .inner {
+  position: relative;
+}
 header nav.fixed {
   background-color: #fff;
   position: fixed;
@@ -1231,8 +1234,8 @@ header nav div#logo {
   left: 0;
 }
 header nav ul {
-  margin: 20px 5% 0 0;
-  width: 95%;
+  margin: 20px 0 0;
+  width: 100%;
   position: absolute;
   right: 0;
   text-align: right;
@@ -1386,8 +1389,8 @@ section#portfolio a.portfolio-item:hover img {
 /******** END PORTFOLIO SECTION STYLES *********/
 /******** START TEAM SECTION STYLES *********/
 section#team div > div {
-  width: 49%;
-  padding: 0 9%;
+  width: 100%;
+  padding: 0 35%;
 }
 section#team div > div img {
   width: 100%;
@@ -1398,10 +1401,6 @@ section#team div > div h4 {
 section#team div > div h4:after {
   width: 70px;
   margin: 18px auto;
-}
-section#team div.right {
-  margin-left: 1%;
-  vertical-align: top;
 }
 section#team p {
   margin: 0 -16%;
@@ -1683,21 +1682,14 @@ section#contact article.right p span a:hover {
 footer {
   margin-top: 112px;
   position: relative;
-  max-height: 312px;
-}
-footer img {
+  background: url('/_assets/img/footer.jpg') repeat left top transparent;
   width: 100%;
-}
-footer .inner {
-  position: absolute;
-  margin: 0 10%;
-  top: 0;
+  height: 540px;
 }
 footer .socials {
-  padding: 140px 0 0;
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding: 60px 0 0;
+  margin: 0 auto;
+  width: 211px;
 }
 footer .socials a {
   font-size: 3em;
@@ -1712,10 +1704,13 @@ footer .socials a {
 footer .socials a:hover {
   color: #fff;
 }
+footer .socials a:last-child {
+  margin-right: 0;
+}
 footer span.icon-logo {
   font-size: 12em;
   color: #fff;
-  padding-top: 50px;
+  padding-top: 90px;
   text-align: center;
   display: block;
   margin-bottom: 18px;
@@ -1724,13 +1719,10 @@ footer p {
   font-family: 'proxima-nova', sans-serif;
   font-style: normal;
   font-weight: 700;
-  padding: 140px 0 0;
+  padding: 30px 0 0;
   font-size: .8em;
   color: #000;
-  text-align: right;
-  position: absolute;
-  right: 0;
-  top: 0;
+  text-align: center;
 }
 /******** END FOOTER STYLES *********/
 /*================================================*/

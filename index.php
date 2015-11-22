@@ -569,18 +569,6 @@
 
 		<h4>So you can find us at the coffee shop.</h4>
 
-		<div class="left">
-			
-			<img src="/_assets/img/alex-fortney.jpg" alt="Alex Fortney, Creative Director at Stunt Double Creative" title="Alex Fortney, Creative Director at Stunt Double Creative">
-
-			<h5>Alex Fortney</h5>
-
-			<h4>Creative Director</h4>
-
-			<p>Alex loves making things, but her true passions are all things that could kill her, like playing rugby for the Nashville women’s team, riding vintage motorcycles, and eating Thai food after 11pm.</p>
-
-		</div><!--left-->
-
 		<div class="right">
 			
 			<img src="/_assets/img/alison-slamon.jpg" alt="Alison Slamon, Chief of Stunts at Stunt Double Creative" title="Alison Slamon, Chief of Stunts at Stunt Double Creative">
@@ -715,20 +703,6 @@
 
 			<div class="logo">
 
-				<span class="icon-bh"></span>
-			
-			</div><!--logo-->
-
-			<img class="background" src="/_assets/img/LogoBG-03.jpg" alt="vintage racing background" title="vintage racing background">
-
-		</article><!--client-->
-
-		<article class="client">
-
-			<div class="overlay"></div><!--overlay-->
-
-			<div class="logo">
-
 				<span class="icon-cole"></span>
 			
 			</div><!--logo-->
@@ -827,7 +801,7 @@
 
 			<div class="logo">
 
-				<span class="icon-mobaglo"></span>
+				<span class="icon-warner"></span>
 			
 			</div><!--logo-->
 
@@ -841,7 +815,7 @@
 
 			<div class="logo">
 
-				<span class="icon-nokia"></span>
+				<span class="icon-flightvu"></span>
 			
 			</div><!--logo-->
 
@@ -926,7 +900,6 @@
 			<h4>Give us a ring.</h4>
 
 			<p><span><a href="tel:6152432779">(615) 243-2779</a></span>
-			<span><a href="tel:6155131424">(615) 513-1424</a></span></p>
 
 		</article><!--right-->
 

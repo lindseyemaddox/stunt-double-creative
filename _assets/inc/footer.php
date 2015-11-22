@@ -1,7 +1,5 @@
 
 <footer>
-	
-	<img src="/_assets/img/footer.jpg"/>
 
 	<div class="inner">
 
