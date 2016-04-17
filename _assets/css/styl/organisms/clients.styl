@@ -1,0 +1,40 @@
+
+section#clients
+	article.client
+		width: 19%
+		height: 210px
+		display: inline-block
+		margin: 0 .1% 1px
+		position: relative
+		overflow: hidden
+		.transition
+		img.background
+			width: 100%
+			.transition(all, 200ms, ease)
+		div.overlay
+			position: absolute
+			top: 0
+			bottom: 0
+			width: 100%
+			opacity: .7
+			background-color: #000
+			.transition
+		div.logo
+			position: absolute
+			top: 40%
+			width: 100%
+			text-align: center
+			.transition(all, 1000ms, ease)
+			span
+				color: #fff
+				font-size: 3em
+				opacity: .5
+		&:hover
+			div.overlay
+				opacity: .8
+			div.logo
+				span
+					opacity: 1
+			img.background
+				width: 120%
+				margin: -10% 0 0 -10%

@@ -1,2 +1,23 @@
-php_value error_reporting 32767
-php_flag display_errors off
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteBase /
+# BEGIN SPECIAL RULES
+
+# END SPECIAL RULES
+
+# BEGIN DEFAULT RULE
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_FILENAME}\.php !-d
+RewriteRule ^([a-zA-Z0-9_-]+)$ /$1.php [QSA,NC,L]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_FILENAME}\.php !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2.php [QSA,NC,L]
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteCond %{REQUEST_FILENAME}\.php !-d
+RewriteRule ^([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ /$1/$2/$3.php [QSA,NC,L]
+
+# END DEFAULT RULE
+
+</IfModule>

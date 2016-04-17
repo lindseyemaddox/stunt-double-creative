@@ -6,7 +6,7 @@ $a = strtotime("-1 week");
 $lastMod = date("Y-m-d", $a);
 //END generate a week ago date
 
-$base = "http://www.stuntdoublecreative.com";
+$base = "http://www.readysetgo.agency";
 
 ?>
 <urlset xmlns="http://www.google.com/schemas/sitemap/0.84">

@@ -1,0 +1,58 @@
+
+section#portfolio
+	div#options
+		margin-bottom: 60px
+	ul#filters li
+		display: inline-block
+		margin: 0 2px
+	a.portfolio-item
+		width: 24%
+		height: 275px
+		display: inline-block
+		margin: 0 .1% 1px
+		position: relative
+		overflow: hidden
+		.transition
+		img
+			width: 100%
+			.transition(all, 8000ms, ease)
+		div.overlay
+			position: absolute
+			top: 0
+			bottom: 0
+			width: 100%
+			opacity: 0
+			background-color: #000
+			.transition
+		div.text
+			position: absolute
+			opacity: 0
+			width: 100%
+			font-size: 1em
+			text-align: center
+			color: #fff
+			padding: 35% 0 0
+			.transition
+		p.project-title
+			.proxima-nova-black
+			text-transform: uppercase
+			letter-spacing: 1px
+			color: #fff
+			&:after
+				content: ""
+				border-bottom: 4px solid @red
+				width: 67px
+				display: block
+				margin: 16px auto
+		p.project-details
+			.proxima-nova-light
+			color: #fff
+			padding: 0 20%
+		&:hover
+			div.overlay
+				opacity: .4
+			div.text
+				opacity: 1
+			img
+				width: 200%
+				margin: -50% 0 0 -50%

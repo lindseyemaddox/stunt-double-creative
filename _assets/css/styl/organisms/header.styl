@@ -1,0 +1,72 @@
+
+header 
+	position: relative
+	nav 
+		position: absolute
+		top: 0
+		left: 0
+		right: 0
+		z-index: 10
+		.inner 
+			position: relative
+		&.fixed 
+			background-color: #fff
+			position: fixed
+			z-index: 9
+			top: 0
+			height: 70px
+			z-index: 3
+			background-color: #000
+			div#logo 
+				background: url('/_assets/img/logo-snipe.png') no-repeat center 10px transparent
+				height: 57px
+				top: 0px
+				left: 2%
+				img 
+					opacity: 0
+					height: 57px
+					.transition
+			li a#top-link 
+				display: inline-block
+			&.show
+				opacity: 1
+		div#logo 
+			position: absolute
+			left: 0
+		ul 
+			margin: 20px 0 0
+			width: 100%
+			position: absolute
+			right: 0
+			text-align: right
+			li 
+				display: inline-block
+				.proxima-nova-light
+				font-size: 1em
+				text-transform: uppercase
+				padding: 0 1%
+				letter-spacing: 4px
+				a 
+					color: #fff
+					text-decoration: none
+					&#top-link 
+						display: none
+				a#about-link 
+					padding-left: 0
+				&#line 
+					position: absolute
+					height: 3px
+					bottom: -5px
+					left: 0
+					padding: 0
+					margin:0
+					.transition
+				&#line::before 
+					content: ""
+					width: calc(~'100% + 20px')
+					height: 3px
+					background: @red none repeat scroll 0 0
+					left: 0
+					position: absolute
+			a#showMenu 
+				display: none
